@@ -1,141 +1,72 @@
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — Knifomatic',
-  description: 'Knifomatic Privacy Policy — Gooserocket Corp',
+  title: "Privacy Policy — Knifomatic",
+  description: "Knifomatic Privacy Policy — Gooserocket Corp.",
 };
 
 export default function Privacy() {
   return (
-    <>
-      <style>{css}</style>
-      <header>
-        <a href="/" style={{ textDecoration: 'none' }}>
-          <div className="logo">
-            <div className="logo-name">Knifo<span>matic</span></div>
-            <div className="logo-by">by Gooserocket Corp</div>
-          </div>
-        </a>
-        <nav>
-          <a href="/#features">Features</a>
-          <a href="/#about">About</a>
-          <a href="/#contact">Contact</a>
-          <a href="/privacy">Privacy</a>
-          <a href="/support">Support</a>
-        </nav>
-      </header>
-
-      <div className="page-hero">
+    <main className="main-doc">
+      <article className="policy">
         <h1>Privacy Policy</h1>
-        <p>Last updated: June 22, 2026</p>
-      </div>
-
-      <div className="content">
-        <div className="card">
-          <h2>Overview</h2>
-          <p>Knifomatic is operated by Gooserocket Corp. This policy explains what information we collect, how we use it, and your rights.</p>
+        <div className="meta">
+          <p className="product">Knifomatic</p>
+          <p>Last updated: July 6, 2026</p>
+          <p>Operator: Gooserocket Corp</p>
         </div>
 
-        <div className="card">
-          <h2>Information We Collect</h2>
-          <p>When you create an account, we collect your email address and a password (stored securely via Supabase Auth). We do not collect your name, phone number, or payment information.</p>
-          <p>We store the collections and knives you create in order to sync them across your devices.</p>
-          <p>We do not collect any analytics, advertising identifiers, or location data.</p>
-        </div>
+        <p className="intro">This policy explains what Knifomatic (&quot;we&quot;, &quot;us&quot;) collects and how we use it.</p>
 
-        <div className="card">
-          <h2>How We Use Your Information</h2>
-          <p>Your email is used solely to authenticate your account and to send password reset emails when requested. We do not send marketing emails.</p>
-          <p>Your collection data is stored on secure servers to enable cross-device sync. We do not sell, share, or use your data for any purpose other than providing the app.</p>
-        </div>
+        <div className="policy-scroll">
+          <h2>1. Data We Collect</h2>
+          <ul>
+            <li><strong>Account data:</strong> your email address (for sign-in, password reset, and account management). Passwords are stored hashed by our auth provider; we never see them.</li>
+            <li><strong>Content you create:</strong> your collections, knives, specifications, notes, values, and photos you add. Photos you add are stored on your device; collection data is stored in your account so it syncs across your devices.</li>
+            <li><strong>Technical data needed to run the service:</strong> basic logs from our providers.</li>
+          </ul>
+          <p>We do NOT collect location, contacts, advertising identifiers, or analytics, and we do not use third-party tracking or ads.</p>
 
-        <div className="card">
-          <h2>Data Storage</h2>
-          <p>Your data is stored on servers provided by Supabase, Inc. Data may be stored in the United States or the European Union. Supabase is SOC 2 compliant.</p>
-        </div>
+          <h2>2. How We Use It</h2>
+          <ul>
+            <li>To provide the app: authentication, saving and syncing your collection, and sending transactional emails (e.g., password reset).</li>
+            <li>To maintain security and prevent abuse.</li>
+          </ul>
+          <p>We do not sell your data or use it for advertising.</p>
 
-        <div className="card">
-          <h2>Guest Users</h2>
-          <p>You may use Knifomatic without creating an account. In this case, all data is stored locally on your device only and is not transmitted to our servers.</p>
-        </div>
+          <h2>3. Community Content</h2>
+          <p>If you submit content to the in-app Community feed (for example, video links), that content is visible to other users of the app.</p>
 
-        <div className="card">
-          <h2>Data Deletion</h2>
-          <p>You may delete your account and all associated data at any time by contacting us at <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>. We will process your request within 30 days.</p>
-        </div>
+          <h2>4. Service Providers (Subprocessors)</h2>
+          <ul>
+            <li><strong>Supabase</strong> — authentication and database (stores your email and collection data); servers in the US or EU; SOC 2 compliant.</li>
+            <li><strong>Cloudflare</strong> — image hosting and infrastructure/CDN.</li>
+            <li><strong>Zoho Mail</strong> — sending transactional emails.</li>
+            <li><strong>Apple App Store / Google Play</strong> — app distribution and, if you purchase an upgrade, payment processing (we never receive your card details).</li>
+          </ul>
 
-        <div className="card">
-          <h2>Children</h2>
-          <p>Knifomatic is not directed at children under the age of 13. We do not knowingly collect personal information from children.</p>
-        </div>
+          <h2>5. Data Retention &amp; Deletion</h2>
+          <p>You can delete your account in the app (Settings → Delete Account). Deletion is scheduled with a 90-day grace period, during which you can sign back in to restore it; after that, your account and its data are permanently erased. You may also request deletion at <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>.</p>
 
-        <div className="card">
-          <h2>Changes to This Policy</h2>
-          <p>We may update this policy from time to time. Changes will be posted on this page with an updated date.</p>
-          <p>Questions? Contact us at <a href="mailto:support@knifomatic.com">support@knifomatic.com</a></p>
-        </div>
-      </div>
+          <h2>6. Guest Use</h2>
+          <p>You can use the app as a guest without an account; in that case your data is stored locally on your device only.</p>
 
-      <footer>
-        <div>© 2026 Gooserocket Corp. All rights reserved.</div>
-        <div className="footer-links">
-          <a href="/privacy">Privacy Policy</a>
-          <a href="/support">Support</a>
-          <a href="mailto:support@knifomatic.com">Contact</a>
+          <h2>7. Children</h2>
+          <p>Knifomatic is not directed at children under 13 (or the minimum age in your country) and we do not knowingly collect their data.</p>
+
+          <h2>8. Security</h2>
+          <p>We use industry-standard measures (encrypted transport, hashed passwords, access controls). No method is 100% secure, but we work to protect your data.</p>
+
+          <h2>9. Your Rights</h2>
+          <p>Depending on your region (e.g., GDPR/CCPA), you may access, correct, or delete your data, or object to processing. Contact us to exercise these rights.</p>
+
+          <h2>10. Changes</h2>
+          <p>We may update this policy; the &quot;Last updated&quot; date will change. Material changes will be noted in the app or by email.</p>
+
+          <h2>11. Contact</h2>
+          <p><a href="mailto:support@knifomatic.com">support@knifomatic.com</a><br />Gooserocket Corp</p>
         </div>
-      </footer>
-    </>
+      </article>
+    </main>
   );
 }
-
-const css = `
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  :root {
-    --black: #111111; --dark: #222222; --mid: #444444; --body: #333333;
-    --accent: #b8860b; --bg: #f8f6f2; --card: #ffffff; --border: #e0dbd0; --radius: 10px;
-  }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    background: var(--bg); color: var(--body); font-size: 17px;
-    line-height: 1.6; -webkit-font-smoothing: antialiased;
-  }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  header {
-    background: var(--black); padding: 18px 40px;
-    display: flex; align-items: center; justify-content: space-between;
-  }
-  .logo { display: flex; flex-direction: column; line-height: 1.15; }
-  .logo-name { font-size: 38px; font-weight: 800; color: #fff; letter-spacing: -.8px; }
-  .logo-name span { color: var(--accent); }
-  .logo-by { font-size: 16px; font-weight: 400; color: #888; letter-spacing: .2px; }
-  nav a { color: #ccc; font-size: 15px; margin-left: 28px; font-weight: 500; }
-  nav a:hover { color: #fff; text-decoration: none; }
-  .page-hero {
-    background: var(--black); color: #fff;
-    padding: 48px 40px; border-bottom: 3px solid var(--accent);
-  }
-  .page-hero h1 { font-size: 38px; font-weight: 800; color: #fff; letter-spacing: -1px; margin-bottom: 8px; }
-  .page-hero p { font-size: 16px; color: #aaa; }
-  .content { max-width: 760px; margin: 0 auto; padding: 56px 40px; }
-  .card {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 32px 36px; margin-bottom: 20px;
-  }
-  h2 { font-size: 22px; font-weight: 700; color: var(--black); margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
-  p { color: var(--body); margin-bottom: 12px; font-size: 16px; }
-  p:last-child { margin-bottom: 0; }
-  footer {
-    background: var(--black); color: #888; text-align: center;
-    padding: 28px 40px; font-size: 14px; border-top: 1px solid #333;
-  }
-  footer a { color: #aaa; }
-  footer a:hover { color: #fff; }
-  .footer-links { margin-top: 8px; }
-  .footer-links a { margin: 0 12px; }
-  @media (max-width: 600px) {
-    header { padding: 16px 20px; } nav { display: none; }
-    .page-hero { padding: 36px 24px; } .page-hero h1 { font-size: 28px; }
-    .content { padding: 36px 24px; } .card { padding: 24px 20px; }
-  }
-`;

@@ -1,186 +1,67 @@
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Knifomatic — Knife Collection Manager',
-  description: 'Knifomatic is a knife inventory and collection manager for iOS and Android. Track your collection, manage wishlists, and connect with other collectors.',
-};
+import { Slogan } from "./Slogan";
 
 export default function Home() {
   return (
-    <>
-      <style>{css}</style>
-      <header>
+    <main className="main-home">
+      <section className="hero">
         <div className="logo">
-          <div className="logo-name">Knifo<span>matic</span></div>
-          <div className="logo-by">by Gooserocket Corp</div>
+          <div className="wordmark">
+            KNIF
+            <svg className="wm-gear" viewBox="-50 -50 100 100" aria-hidden="true">
+              <use href="#gearO" />
+            </svg>
+            MATIC
+          </div>
+          <Slogan />
         </div>
-        <nav>
-          <a href="#features">Features</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-          <a href="/privacy">Privacy</a>
-          <a href="/support">Support</a>
-        </nav>
-      </header>
-
-      <div className="hero">
-        <h1>Your knife collection,<br /><em>organized.</em></h1>
-        <p>Knifomatic is a mobile app for knife collectors to catalog, manage, and track their collection — on iOS and Android.</p>
-        <span className="badge">Coming Soon · iOS &amp; Android</span>
-      </div>
-
-      <section id="features">
-        <h2>What Knifomatic does</h2>
-        <p>Whether you collect production knives, custom pieces, or fixed blades, Knifomatic gives you a clean, fast way to keep track of everything you own — and everything you want.</p>
-        <div className="features">
-          <div className="feature">
-            <div className="feature-icon">🗂️</div>
-            <h3>Full Catalog</h3>
-            <p>Browse a curated global catalog of production and custom knives maintained by the Knifomatic team.</p>
-          </div>
-          <div className="feature">
-            <div className="feature-icon">📦</div>
-            <h3>My Collection</h3>
-            <p>Track every knife you own with notes, condition, and acquisition details. Your collection syncs across all your devices.</p>
-          </div>
-          <div className="feature">
-            <div className="feature-icon">⭐</div>
-            <h3>Wishlist</h3>
-            <p>Save knives you want to acquire. Keep your wishlist organized and ready when you find the right deal.</p>
-          </div>
-          <div className="feature">
-            <div className="feature-icon">🏷️</div>
-            <h3>For Sale</h3>
-            <p>Mark items from your collection that you&apos;re ready to part with. Keep your inventory current.</p>
-          </div>
-          <div className="feature">
-            <div className="feature-icon">🔒</div>
-            <h3>Private by Design</h3>
-            <p>Your collection data stays yours. We don&apos;t sell your information or use it for advertising — ever.</p>
-          </div>
-          <div className="feature">
-            <div className="feature-icon">📱</div>
-            <h3>iOS &amp; Android</h3>
-            <p>Available on both platforms. Use without an account, or sign in to sync across devices.</p>
-          </div>
+        <p className="sub">
+          A precision toolkit for knife enthusiasts — catalog every blade, organize your collections, and sync across devices.
+        </p>
+        <div className="cta">
+          <a className="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.gooserocket.knifomatic">Get it on Google Play</a>
+          <a className="btn btn-ghost" href="#">Download on the App Store</a>
         </div>
       </section>
 
-      <section id="about">
-        <h2>About</h2>
-        <div className="about-box">
-          <p>Knifomatic is developed and published by <strong>Gooserocket Corp</strong>, a mobile software company based in New York.</p>
+      <section className="features">
+        <div className="grid">
+          <div className="card">
+            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
+            <h3>Collections</h3>
+            <p>Organize your blades your way — plain shelves, ranked tier lists, or a daily-rotation set. Build as many collections as you need and reorder them in a tap.</p>
+          </div>
+          <div className="card">
+            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 5h18v14H3zM3 9h18" /></svg>
+            <h3>Built-in Catalog</h3>
+            <p>Start from a curated library of popular knives with steel, dimensions, and photos already filled in. Add one to your collection instead of typing every spec by hand.</p>
+          </div>
+          <div className="card">
+            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7M21 4v5h-5" /></svg>
+            <h3>Daily Rotation</h3>
+            <p>Let Knifomatic feature a different knife on your home screen every day — a fresh reason to appreciate pieces you don&apos;t carry as often.</p>
+          </div>
+          <div className="card">
+            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v18M6 8h12M6 16h12" /></svg>
+            <h3>Full Specs</h3>
+            <p>Record blade steel, handle material, lock type, length, and weight for every knife. Export a clean spec sheet to share, insure, or keep for your records.</p>
+          </div>
+          <div className="card">
+            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a9 9 0 0 0 0 18 4 4 0 0 0 0-8 3 3 0 0 1 0-6z" /></svg>
+            <h3>Themes</h3>
+            <p>Switch between the signature blueprint look and a clean simple theme, then pick your own accent color to make the app feel like yours.</p>
+          </div>
+          <div className="card">
+            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12a8 8 0 0 1 14-5M20 12a8 8 0 0 1-14 5M17 4v3h-3M7 20v-3h3" /></svg>
+            <h3>Cloud Sync</h3>
+            <p>Back up your collection and photos to the cloud and keep every device in sync. Switch phones or reinstall — your whole catalog comes right back.</p>
+          </div>
+        </div>
+        <div className="about-note">
+          <p><strong>Knifomatic</strong> is developed and published by Gooserocket Corp, a mobile software company based in New York.</p>
           <p>We build focused, practical apps for enthusiast communities. Knifomatic is our first product in the collector tools space — designed to be fast, simple, and respectful of your privacy.</p>
-          <p>Our goal is to give collectors a tool that works the way they think: organized by what you own, what you want, and what you&apos;re selling — without noise, subscriptions, or ads.</p>
+          <p>Our goal is to give collectors a tool that works the way they think: organized by what you own, what you want, and what you&apos;re selling.</p>
         </div>
       </section>
-
-      <section id="contact">
-        <h2>Contact &amp; Support</h2>
-        <p>Have a question, found a bug, or want to request a feature? We&apos;re available by email.</p>
-        <ul className="contact-list">
-          <li><strong>Support:</strong> <a href="mailto:support@knifomatic.com">support@knifomatic.com</a></li>
-          <li><strong>Company:</strong> Gooserocket Corp</li>
-          <li><strong>Location:</strong> New York, USA</li>
-          <li><strong>Privacy Policy:</strong> <a href="/privacy">knifomatic.com/privacy</a></li>
-        </ul>
-      </section>
-
-      <footer>
-        <div>© 2026 Gooserocket Corp. All rights reserved.</div>
-        <div className="footer-links">
-          <a href="/privacy">Privacy Policy</a>
-          <a href="/support">Support</a>
-          <a href="mailto:support@knifomatic.com">Contact</a>
-        </div>
-      </footer>
-    </>
+    </main>
   );
 }
-
-const css = `
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  :root {
-    --black: #111111; --dark: #222222; --mid: #444444; --body: #333333;
-    --accent: #b8860b; --accent2: #8b6914; --bg: #f8f6f2; --card: #ffffff;
-    --border: #e0dbd0; --radius: 10px;
-  }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    background: var(--bg); color: var(--body); font-size: 17px;
-    line-height: 1.6; -webkit-font-smoothing: antialiased;
-  }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  header {
-    background: var(--black); padding: 18px 40px;
-    display: flex; align-items: center; justify-content: space-between;
-  }
-  .logo { display: flex; flex-direction: column; line-height: 1.15; }
-  .logo-name { font-size: 38px; font-weight: 800; color: #fff; letter-spacing: -.8px; }
-  .logo-name span { color: var(--accent); }
-  .logo-by { font-size: 16px; font-weight: 400; color: #888; letter-spacing: .2px; }
-  nav a { color: #ccc; font-size: 15px; margin-left: 28px; font-weight: 500; }
-  nav a:hover { color: #fff; text-decoration: none; }
-  .hero {
-    background: var(--black); color: #fff;
-    text-align: center; padding: 80px 40px 90px;
-    border-bottom: 3px solid var(--accent);
-  }
-  .hero h1 {
-    font-size: 52px; font-weight: 800; letter-spacing: -1.5px;
-    line-height: 1.1; color: #fff; margin-bottom: 18px;
-  }
-  .hero h1 em { font-style: normal; color: var(--accent); }
-  .hero p { font-size: 20px; color: #ccc; max-width: 560px; margin: 0 auto 36px; line-height: 1.55; }
-  .badge {
-    display: inline-block; background: var(--accent); color: #fff;
-    font-size: 14px; font-weight: 700; padding: 8px 22px;
-    border-radius: 999px; letter-spacing: .3px; text-transform: uppercase;
-  }
-  section { max-width: 860px; margin: 0 auto; padding: 64px 40px; }
-  section + section { border-top: 1px solid var(--border); }
-  h2 { font-size: 30px; font-weight: 800; color: var(--black); margin-bottom: 16px; letter-spacing: -.5px; }
-  p { color: var(--body); margin-bottom: 14px; }
-  p:last-child { margin-bottom: 0; }
-  .features {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 20px; margin-top: 32px;
-  }
-  .feature {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 24px 22px;
-  }
-  .feature-icon { font-size: 28px; margin-bottom: 10px; }
-  .feature h3 { font-size: 17px; font-weight: 700; color: var(--black); margin-bottom: 8px; }
-  .feature p { font-size: 15px; color: var(--mid); margin: 0; }
-  .about-box {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 32px 36px; margin-top: 24px;
-  }
-  .about-box p { font-size: 16px; color: var(--body); }
-  .contact-list { list-style: none; margin-top: 20px; }
-  .contact-list li {
-    font-size: 16px; color: var(--body); padding: 10px 0;
-    border-bottom: 1px solid var(--border); display: flex; gap: 10px;
-  }
-  .contact-list li:last-child { border-bottom: none; }
-  .contact-list strong { color: var(--black); min-width: 90px; display: inline-block; }
-  footer {
-    background: var(--black); color: #888; text-align: center;
-    padding: 28px 40px; font-size: 14px; border-top: 1px solid #333;
-  }
-  footer a { color: #aaa; }
-  footer a:hover { color: #fff; }
-  .footer-links { margin-top: 8px; }
-  .footer-links a { margin: 0 12px; }
-  @media (max-width: 600px) {
-    header { padding: 16px 20px; }
-    nav { display: none; }
-    .hero { padding: 56px 24px 64px; }
-    .hero h1 { font-size: 36px; }
-    .hero p { font-size: 17px; }
-    section { padding: 48px 24px; }
-    .about-box { padding: 24px 20px; }
-  }
-`;
