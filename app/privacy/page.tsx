@@ -23,7 +23,7 @@ export default function Privacy() {
           <ul>
             <li><strong>Account data:</strong> your email address (for sign-in, password reset, and account management). Passwords are stored hashed by our auth provider; we never see them.</li>
             <li><strong>Content you create:</strong> your collections, knives, specifications, notes, values, and photos you add. Photos you add are stored on your device; collection data is stored in your account so it syncs across your devices.</li>
-            <li><strong>Technical data needed to run the service:</strong> basic logs from our providers.</li>
+            <li><strong>Technical data needed to run the service:</strong> basic logs from our providers, plus crash and error reports (which may include device model, OS version, and app version) sent to our diagnostics provider to help us fix problems.</li>
           </ul>
           <p>We do NOT collect location, contacts, advertising identifiers, or analytics, and we do not use third-party tracking or ads.</p>
 
@@ -42,6 +42,7 @@ export default function Privacy() {
             <li><strong>Supabase</strong> — authentication and database (stores your email and collection data); servers in the US or EU; SOC 2 compliant.</li>
             <li><strong>Cloudflare</strong> — image hosting and infrastructure/CDN.</li>
             <li><strong>Zoho Mail</strong> — sending transactional emails.</li>
+            <li><strong>Sentry</strong> (Functional Software, Inc.) — crash and error diagnostics used to detect and fix problems in the app.</li>
             <li><strong>Apple App Store / Google Play</strong> — app distribution and, if you purchase an upgrade, payment processing (we never receive your card details).</li>
           </ul>
 
