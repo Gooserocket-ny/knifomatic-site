@@ -11,6 +11,7 @@ function Header() {
   return (
     <header>
       <nav aria-label="Top navigation">
+        <a href="/">Home</a>
         <a href="/privacy">Privacy</a>
         <a href="/contact">Contact</a>
         <a href="/support">Support</a>
