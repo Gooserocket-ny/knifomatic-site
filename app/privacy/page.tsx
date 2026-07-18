@@ -89,9 +89,11 @@ export default function Privacy() {
         </p>
         <p>
           <strong>The practical consequence is that your photos are not backed up.</strong> If you
-          reinstall the app, move to a different device, or delete your account, your collection data
-          is restored when you sign in again, but your photographs are not. Please keep your own
-          copies of any images you would not want to lose.
+          reinstall the app or move to a different device while your account is still active, signing
+          in restores your synced collection data but not your photographs. If you have deleted your
+          account, the collection can be restored only by signing back in during the 14-day grace
+          period; after that, neither the collection nor the photographs can be restored. Please keep
+          your own copies of any images you would not want to lose.
         </p>
         <p>
           Photo backup is planned as part of a future optional subscription. Should that be
@@ -112,6 +114,18 @@ export default function Privacy() {
             <strong>To keep the service working and secure</strong> — diagnosing crashes, preventing
             abuse, and enforcing our Terms of Service. We do this on the basis of our legitimate
             interest in running a reliable service, balanced against your privacy.
+          </li>
+          <li>
+            <strong>To run and moderate Fresh Cuts</strong> — storing and displaying the links you
+            submit, reviewing reports, removing links that break the posting rules, and preventing
+            repeat breaches. We do this to perform our agreement with you, and on the basis of our
+            legitimate interest in keeping the feed relevant and safe.
+          </li>
+          <li>
+            <strong>To answer your support requests</strong> — reading and keeping our
+            correspondence so that we can deal with your question, investigate the problem, and refer
+            back to what was already done. We do this to perform our agreement with you, and on the
+            basis of our legitimate interest in providing effective support.
           </li>
           <li>
             <strong>To meet our obligations</strong> — retaining records of purchases where tax and
@@ -188,14 +202,16 @@ export default function Privacy() {
             <strong>Limited records we are required to keep.</strong> Purchase history — what was
             bought, when, and whether it was refunded — is retained for tax, accounting, fraud
             prevention, and dispute resolution, because a refund can arrive long after an account is
-            gone. These records are not linked to any usable account.
+            gone. These records are no longer connected to an active Knifomatic account.
           </li>
         </ul>
         <p>
-          Community submissions stop being visible in the feed 24 hours after posting, but the
-          underlying record is retained after that so we can handle moderation, complaints, and
-          repeat-infringement decisions. Diagnostic logs and crash reports are kept for up to 90 days
-          and then discarded. Support correspondence is kept for up to two years.
+          Community submissions stop being visible in the feed 24 hours after posting. The underlying
+          record is kept for up to 12 months after that, so that we can deal with moderation,
+          complaints, and repeat-breach decisions, and longer only where it is reasonably necessary
+          to investigate an open complaint, enforce a posting restriction, resolve a dispute, or
+          comply with the law. Diagnostic logs and crash reports are kept for up to 90 days and then
+          discarded. Support correspondence is kept for up to two years.
         </p>
 
         <h2>7. Posts in the Community Feed Are Public</h2>

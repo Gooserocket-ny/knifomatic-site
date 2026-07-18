@@ -92,9 +92,11 @@ export default function Terms() {
 
         <h2>6. Using the App Without an Account</h2>
         <p>
-          You may use Knifomatic as a guest. Guest data is stored only on your device: it does not
-          sync, we do not hold or back up any copy of it, and it is lost permanently if you remove
-          the app. Guest accounts are subject to lower limits than registered accounts.
+          You may use Knifomatic as a guest. Guest collection data is stored only on your device: it
+          does not sync, we do not hold or back up any copy of it, and it is lost permanently if you
+          remove the app. Ordinary technical and diagnostic data is still generated, as the{" "}
+          <Link href="/privacy">Privacy Policy</Link> explains. Guest accounts are subject to lower
+          limits than registered accounts.
         </p>
 
         <h2>7. Your Collection and Your Content</h2>
@@ -112,11 +114,16 @@ export default function Terms() {
 
         <h2>8. Photographs Are Not Backed Up</h2>
         <p>
-          Photographs you add are stored only on your device and form no part of cloud sync. If you
-          reinstall the app, move to a new device, or delete your account, your collection data is
-          restored but{" "}
-          <strong>your photographs will be permanently lost and cannot be recovered by us</strong>.
-          Please keep your own copies of any images that matter to you.
+          Photographs you add are stored only on your device and form no part of cloud sync.{" "}
+          <strong>They cannot be recovered by us in any circumstances.</strong> Please keep your own
+          copies of any images that matter to you.
+        </p>
+        <p>
+          What that means in the two cases people ask about. If you reinstall the app or move to a
+          new device while your account is still active, signing in restores your synced collection
+          data, but not your photographs. If you have deleted your account, the collection can be
+          restored only by signing back in during the 14-day grace period; once that period has
+          passed, neither the collection nor the photographs can be restored.
         </p>
         <p>
           Photo backup is planned as part of a future optional subscription, which is separate from
@@ -126,34 +133,46 @@ export default function Terms() {
 
         <h2>9. The Community Feed</h2>
         <p>
-          Fresh Cuts is a shared feed in which users post links to knife-related videos. Posts are
-          visible to other users while they remain active, and are governed by the Fresh Cuts Posting
-          Rules &amp; Terms shown in the app before your first post. In summary: submissions must be
-          knife-related and lawful, must not be abusive, harassing, or sexually explicit, and must be
-          links you have the right to share. Posts remain active for a limited period, and each
-          account may hold only a small number at a time.
+          Fresh Cuts lets signed-in users submit links to publicly accessible knife-related videos
+          hosted on YouTube. <strong>We do not upload, host, or control the videos themselves.</strong>{" "}
+          They stay on YouTube, and YouTube&apos;s terms, availability, copyright procedures, and
+          moderation apply to them. What we moderate is whether a submitted link and its card appear
+          in Fresh Cuts.
         </p>
         <p>
-          By submitting content to Fresh Cuts you grant us a limited, non-exclusive, royalty-free
-          licence to store, format, display, and distribute that submission — the link together with
-          its title, channel, and preview details — within Knifomatic while it is active, and to
-          retain it for a reasonable period afterwards for moderation, complaint handling, and legal
-          compliance. You keep ownership of what you submit, and this licence ends when the record is
-          deleted.
+          Submissions are governed by the Fresh Cuts Posting Rules &amp; Terms, which you accept
+          before your first post and which remain available in the app afterwards. In summary:
+          submissions must be knife-related and lawful, must not be abusive, harassing, or sexually
+          explicit, and must be links you are entitled to share. Posts remain visible for a limited
+          period, and each account may hold only a small number at a time.
         </p>
         <p>
-          We may review, refuse, remove, or limit the visibility of any submission that breaches
-          those rules, and we may do so without prior notice. Repeated or serious breaches may result
-          in temporary or permanent loss of posting access.
+          By submitting a link you authorise us to store and display that URL and the publicly
+          available details that go with it — video title, thumbnail, channel name, and publication
+          date — within Knifomatic while the post is active, and to retain the record afterwards for
+          moderation, complaint handling, and legal compliance. You retain any rights you may have in
+          the information you submit. This authorisation covers the link and its details only: it
+          gives us no rights in the underlying video.
+        </p>
+        <p>
+          You can report a link through the reporting function in the app. We may review, refuse,
+          remove, or limit the visibility of any submission that breaches the rules, without prior
+          notice, and removing a link from Fresh Cuts has no effect on the video itself. Repeated or
+          serious breaches may result in temporary or permanent loss of posting access.
         </p>
 
         <h2>10. Copyright Complaints</h2>
         <p>
-          If you believe that material accessible through Knifomatic infringes your copyright, write
+          If you believe that material reachable through Knifomatic infringes your copyright, write
           to <a href="mailto:support@knifomatic.com">support@knifomatic.com</a> identifying the
-          material, explaining what right you hold, and giving us a way to contact you. We will review
-          the complaint and remove the material where it is warranted. We may also remove posting
-          access from users who infringe repeatedly.
+          material, explaining what right you hold, and giving us a way to contact you. Where the
+          complaint is warranted we will remove or disable the link within Knifomatic, and we may
+          withdraw posting access from accounts that infringe repeatedly.
+        </p>
+        <p>
+          Note the limit of what we can do: we do not host the videos, so we cannot take one down
+          from YouTube. If your complaint concerns the video itself rather than its appearance in
+          Fresh Cuts, please also raise it with YouTube through its copyright reporting process.
         </p>
 
         <h2>11. Acceptable Use</h2>
@@ -270,9 +289,9 @@ export default function Terms() {
             of time.
           </strong>{" "}
           An edition is a one-time unlock of limits within the app as it exists, not a promise of
-          perpetual operation. If we discontinue Knifomatic, editions stop working along with it and
-          no refund is owed beyond whatever the store you purchased through provides under its own
-          policy.
+          perpetual operation. If we discontinue Knifomatic, editions stop working along with it.
+          Except where applicable law requires otherwise, no refund is owed beyond any refund
+          available under the policy of the store through which you purchased.
         </p>
 
         <h2>17. Limitation of Liability</h2>
