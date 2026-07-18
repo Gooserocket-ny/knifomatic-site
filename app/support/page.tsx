@@ -34,7 +34,7 @@ export default function Support() {
             </section>
             <section>
               <h3>How do I delete my account?</h3>
-              <p>You can delete your account in the app (Settings → Delete Account). Deletion is scheduled with a 14-day grace period, during which you can sign back in to restore it; after that, your account and its data are permanently erased. You may also request deletion at <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>.</p>
+              <p>You can delete your account in the app (Settings → Delete Account). Deletion is scheduled with a 14-day grace period, during which you can sign back in to restore it. After that your account and collection data are deleted from our active systems, apart from the limited records and temporary encrypted backups described in our <a href="/privacy">Privacy Policy</a>. You may also request deletion at <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>.</p>
             </section>
           </div>
         </div>

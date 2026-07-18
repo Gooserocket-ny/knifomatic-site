@@ -55,8 +55,14 @@ export default function Privacy() {
           </li>
           <li>
             <strong>Community submissions.</strong> If you post to the Fresh Cuts feed, we store the
-            video identifier, its title and channel, its publication date, the time you submitted
-            it, and your account identifier, together with any moderation decision made about it.
+            video identifier, the time you submitted it, and your account identifier, together with
+            any moderation decision made about it. We also hold the video&apos;s title, channel, and
+            publication date, which come from YouTube rather than from you — see section 5.
+          </li>
+          <li>
+            <strong>Reports you file.</strong> If you report a link, we store which link it was, the
+            reason you chose, when you reported it, and your account identifier. Reports are visible
+            only to our moderators; the person who posted the link is not told who reported it.
           </li>
           <li>
             <strong>Technical and network data.</strong> Ordinary server and infrastructure logs
@@ -88,12 +94,19 @@ export default function Privacy() {
           cloud sync, and we have no means of accessing them.
         </p>
         <p>
-          <strong>The practical consequence is that your photos are not backed up.</strong> If you
+          <strong>The practical consequence is that we do not back your photos up.</strong> If you
           reinstall the app or move to a different device while your account is still active, signing
           in restores your synced collection data but not your photographs. If you have deleted your
           account, the collection can be restored only by signing back in during the 14-day grace
-          period; after that, neither the collection nor the photographs can be restored. Please keep
-          your own copies of any images you would not want to lose.
+          period; after that, neither the collection nor the photographs can be restored by us.
+          Please keep your own copies of any images you would not want to lose.
+        </p>
+        <p>
+          Your device may hold its own copy, outside our reach and outside our knowledge. iOS and
+          Android can include an app&apos;s local files in their system backups — iCloud Backup,
+          Google One — according to settings you control. If such a backup exists, restoring a device
+          from it may bring your photographs back. We neither see nor manage those backups, and the
+          privacy policies of Apple and Google govern them.
         </p>
         <p>
           Photo backup is planned as part of a future optional subscription. Should that be
@@ -173,11 +186,30 @@ export default function Privacy() {
           and are never seen by us.
         </p>
         <p>
+          <strong>YouTube.</strong> Fresh Cuts is built with YouTube API Services. When a link is
+          submitted we ask YouTube&apos;s API for that video&apos;s title, channel name, and
+          publication date, and thumbnails are loaded directly from YouTube when the feed is
+          displayed. Google&apos;s handling of data is governed by the{" "}
+          <a href="https://policies.google.com/privacy" rel="noreferrer">
+            Google Privacy Policy
+          </a>
+          , and you can review or revoke third-party access to your Google account at the{" "}
+          <a href="https://myaccount.google.com/permissions" rel="noreferrer">
+            Google security settings page
+          </a>
+          .
+        </p>
+        <p>
           We are based in the United States and our providers may process data in the United States
           or in Europe. Where data is transferred out of the EEA or the UK, we rely on the transfer
           safeguards offered by each provider, such as Standard Contractual Clauses. We never sell,
-          rent, or trade your data, and we disclose it to anyone else only where the law obliges us
-          to.
+          rent, or trade your data.
+        </p>
+        <p>
+          Beyond the providers above, we disclose your data only where the law obliges us to, or if
+          Knifomatic is sold or merged into another business — in which case your data would pass to
+          the buyer as part of the service, still governed by a policy no less protective than this
+          one, and we would tell you before anything changed.
         </p>
 
         <h2>6. How Long We Keep It</h2>
@@ -206,12 +238,20 @@ export default function Privacy() {
           </li>
         </ul>
         <p>
-          Community submissions stop being visible in the feed 24 hours after posting. The underlying
-          record is kept for up to 12 months after that, so that we can deal with moderation,
-          complaints, and repeat-breach decisions, and longer only where it is reasonably necessary
-          to investigate an open complaint, enforce a posting restriction, resolve a dispute, or
-          comply with the law. Diagnostic logs and crash reports are kept for up to 90 days and then
-          discarded. Support correspondence is kept for up to two years.
+          Community submissions stop being visible in the feed 24 hours after posting.{" "}
+          <strong>
+            The details that came from YouTube — title, channel, publication date — are erased within
+            30 days of posting
+          </strong>
+          , as YouTube&apos;s API terms require. What remains afterwards is our own record: which
+          video was linked, by which account, when, and any moderation decision. That is kept for up
+          to 12 months, and longer only where reasonably necessary to investigate an open complaint,
+          enforce a posting restriction, resolve a dispute, or comply with the law. Reports follow
+          the record they concern and are removed with it.
+        </p>
+        <p>
+          Diagnostic logs and crash reports are kept for up to 90 days and then discarded. Support
+          correspondence is kept for up to two years.
         </p>
 
         <h2>7. Posts in the Community Feed Are Public</h2>

@@ -27,8 +27,7 @@ export default function Terms() {
         <h2>1. Agreeing to These Terms</h2>
         <p>
           By downloading Knifomatic, creating an account, or otherwise using the app, you confirm
-          that you accept these terms. If you do not accept them, please do not use the app. If you
-          are agreeing on behalf of an organisation, you confirm that you are authorised to do so.
+          that you accept these terms. If you do not accept them, please do not use the app.
         </p>
 
         <h2>2. The Service Is Provided As It Is</h2>
@@ -114,9 +113,16 @@ export default function Terms() {
 
         <h2>8. Photographs Are Not Backed Up</h2>
         <p>
-          Photographs you add are stored only on your device and form no part of cloud sync.{" "}
-          <strong>They cannot be recovered by us in any circumstances.</strong> Please keep your own
-          copies of any images that matter to you.
+          Photographs you add are stored only on your device and form no part of cloud sync. We
+          never upload them, and <strong>we cannot recover them for you in any circumstances</strong>
+          . Please keep your own copies of any images that matter to you.
+        </p>
+        <p>
+          Your device may keep its own copy. iOS and Android can include an app&apos;s local files in
+          their system backups — iCloud Backup, Google One — depending on settings we neither control
+          nor can see. If such a backup exists, restoring a device from it may bring your photographs
+          back. That is between you and your operating system; we can make no promises about it
+          either way.
         </p>
         <p>
           What that means in the two cases people ask about. If you reinstall the app or move to a
@@ -138,6 +144,20 @@ export default function Terms() {
           They stay on YouTube, and YouTube&apos;s terms, availability, copyright procedures, and
           moderation apply to them. What we moderate is whether a submitted link and its card appear
           in Fresh Cuts.
+        </p>
+        <p>
+          Fresh Cuts is built with YouTube API Services, so by using it{" "}
+          <strong>
+            you also agree to the{" "}
+            <a href="https://www.youtube.com/t/terms" rel="noreferrer">
+              YouTube Terms of Service
+            </a>
+          </strong>
+          . How Google handles data is set out in the{" "}
+          <a href="https://policies.google.com/privacy" rel="noreferrer">
+            Google Privacy Policy
+          </a>
+          .
         </p>
         <p>
           Submissions are governed by the Fresh Cuts Posting Rules &amp; Terms, which you accept
@@ -229,8 +249,15 @@ export default function Terms() {
         <p>
           Knifomatic is free to use. Optional paid editions increase the number of knives you may
           keep in one account and the number of photographs you may attach to each knife. The limits
-          applying to each edition are shown in the app and may change over time; where they change,
-          we intend the change to be in your favour.
+          applying to each edition are shown in the app at the time you buy.
+        </p>
+        <p>
+          <strong>
+            We will not reduce the limits of an edition you have already bought.
+          </strong>{" "}
+          If your edition allowed a given number of knives and photographs when you paid for it, it
+          keeps allowing at least that. We may raise those limits, and we may add capabilities to an
+          edition, but what you have paid for will not be taken away or made smaller.
         </p>
         <p>
           Editions are one-time purchases rather than subscriptions: nothing recurs and there is
@@ -341,8 +368,9 @@ export default function Terms() {
           beneficiaries of these terms and may enforce them against you.
         </p>
         <p>
-          You confirm that you are not located in a country subject to a US Government embargo, and
-          that you are not on any US Government list of prohibited or restricted parties.
+          You confirm that you are not located in a country subject to a US Government embargo or
+          designated by the US Government as a country supporting terrorism, and that you are not on
+          any US Government list of prohibited or restricted parties.
         </p>
 
         <h2>20. Changes to These Terms</h2>
