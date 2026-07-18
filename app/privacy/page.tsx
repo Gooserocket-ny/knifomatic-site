@@ -19,9 +19,10 @@ export default function Privacy() {
 
         <p className="intro">
           Knifomatic helps you keep a record of your knife collection. We collect only what the app
-          needs in order to work. We do not sell your data, we show no advertising, and we do not
-          track you across other apps or websites. The rules for using the app are set out
-          separately in our <Link href="/terms">Terms of Service</Link>.
+          needs in order to work. We do not sell your data, we do not track you across other apps or
+          websites, and we use no advertising networks — some listings in the app are paid
+          placements, and those are labelled as such rather than targeted at you. The rules for
+          using the app are set out separately in our <Link href="/terms">Terms of Service</Link>.
         </p>
 
         <h2>1. Who Is Responsible for Your Data</h2>

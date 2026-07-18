@@ -71,7 +71,7 @@ export default function Home() {
 
           <div className="hero-meta">
             <span>FREE TO USE</span>
-            <span>NO ADS · NO TRACKING</span>
+            <span>NO TRACKING · NO DATA SELLING</span>
             <span>WORKS OFFLINE</span>
           </div>
         </div>
