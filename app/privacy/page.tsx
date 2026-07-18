@@ -35,10 +35,11 @@ export default function Privacy() {
         <h2>2. What We Collect</h2>
         <ul>
           <li>
-            <strong>Your email address.</strong> Used to sign you in, to reset your password, and to
-            manage your account. Passwords are stored in hashed form by our authentication provider
-            and are never visible to us. If you sign in with Apple or Google, we receive your email
-            address and a verified identifier from them — never your password.
+            <strong>Account data.</strong> Your email address, used to sign you in, to reset your
+            password, and to manage your account. Passwords are stored in hashed form by our
+            authentication provider and are never visible to us. If you sign in with Apple or
+            Google, we receive your email address and a verified identifier from them — never your
+            password.
           </li>
           <li>
             <strong>The collection you build.</strong> Your collections, knives, specifications,
@@ -46,14 +47,37 @@ export default function Privacy() {
             on each device where you sign in.
           </li>
           <li>
-            <strong>Diagnostic data.</strong> Basic server logs, together with crash and error
-            reports that may include your device model, operating system version, and app version.
-            We use these only to find and fix faults.
+            <strong>Purchase and entitlement data.</strong> Which edition you bought, when, the
+            store transaction identifier, whether it was later refunded, and an identifier linking
+            that purchase to your account. We receive this from the app stores through RevenueCat.
+            We never receive your payment card details.
+          </li>
+          <li>
+            <strong>Community submissions.</strong> If you post to the Fresh Cuts feed, we store the
+            video identifier, its title and channel, its publication date, the time you submitted
+            it, and your account identifier, together with any moderation decision made about it.
+          </li>
+          <li>
+            <strong>Technical and network data.</strong> Ordinary server and infrastructure logs
+            generated when your device contacts our services, which include IP addresses and
+            timestamps. These are produced automatically by our hosting and database providers as
+            part of operating and securing the service.
+          </li>
+          <li>
+            <strong>Diagnostic data.</strong> Crash and error reports, which may include your device
+            model, operating system version, and app version. We have configured our diagnostics
+            provider not to attach personally identifying information, and performance tracing and
+            session replay are switched off.
+          </li>
+          <li>
+            <strong>Support correspondence.</strong> If you email us, we keep your message, your
+            email address, and our reply, so that we can deal with the matter and refer back to it.
           </li>
         </ul>
         <p>
-          We do not collect your location, your contacts, advertising identifiers, or behavioural
-          analytics, and we do not use third-party tracking technologies.
+          We do not collect your location, your contacts, or advertising identifiers, we do not
+          build behavioural profiles, and we use no third-party advertising networks and no
+          personalised advertising.
         </p>
 
         <h2>3. Your Photos Remain on Your Device</h2>
@@ -100,8 +124,9 @@ export default function Privacy() {
 
         <h2>5. Who Else Processes Your Data</h2>
         <p>
-          We rely on a small number of service providers, each handling only what its function
-          requires and none permitted to use your data for their own purposes:
+          We rely on a small number of service providers. These act on our instructions, handle only
+          what their function requires, and are not permitted to use your data for their own
+          purposes:
         </p>
         <ul>
           <li>
@@ -123,31 +148,53 @@ export default function Privacy() {
             <strong>RevenueCat</strong> — validating in-app purchases and recording the edition an
             account is entitled to.
           </li>
-          <li>
-            <strong>Apple App Store and Google Play</strong> — distribution of the app and
-            processing of payments. Your payment card details go to them and are never seen by us.
-          </li>
         </ul>
         <p>
+          <strong>Apple and Google are different.</strong> When you download the app or make a
+          purchase, Apple and Google process your store account, device, and payment information for
+          their own purposes as well as ours — running their stores, preventing fraud, and whatever
+          else their own terms permit. They act independently of us there, not on our instructions,
+          and their own privacy policies govern what they do. Your payment card details go to them
+          and are never seen by us.
+        </p>
+        <p>
           We are based in the United States and our providers may process data in the United States
-          or in Europe. Where data is transferred out of the EEA or the UK, that transfer is covered
-          by Standard Contractual Clauses or another mechanism approved for the purpose. We never
-          sell, rent, or trade your data, and we disclose it to anyone else only where the law
-          obliges us to.
+          or in Europe. Where data is transferred out of the EEA or the UK, we rely on the transfer
+          safeguards offered by each provider, such as Standard Contractual Clauses. We never sell,
+          rent, or trade your data, and we disclose it to anyone else only where the law obliges us
+          to.
         </p>
 
         <h2>6. How Long We Keep It</h2>
         <p>
           Your account and collection data are kept for as long as your account exists. When you
-          delete your account, deletion is scheduled with a 14-day grace period during which signing
-          back in restores everything; once those 14 days pass, the account and its data are erased
-          permanently and cannot be recovered by us or by you.
+          delete your account, deletion is scheduled with a 14-day grace period, during which signing
+          back in restores everything. After that period your account and collection data are deleted
+          from our active systems and we can no longer retrieve them for you.
         </p>
         <p>
-          Diagnostic logs and crash reports are kept for up to 90 days and then discarded. Records of
-          purchases — what was bought, when, and whether it was later refunded — are retained after
-          an account is deleted, because refunds can be issued long afterwards and because we are
-          required to account for transactions. Those records are not linked to any usable account.
+          Two things outlive that deletion, and we would rather say so plainly than imply a clean
+          erasure we cannot deliver:
+        </p>
+        <ul>
+          <li>
+            <strong>Encrypted backups.</strong> Our database provider takes routine backups for
+            disaster recovery. Residual copies of deleted data may persist in those backups until
+            they expire on their normal rotation, after which they are overwritten. We do not restore
+            deleted accounts from backups.
+          </li>
+          <li>
+            <strong>Limited records we are required to keep.</strong> Purchase history — what was
+            bought, when, and whether it was refunded — is retained for tax, accounting, fraud
+            prevention, and dispute resolution, because a refund can arrive long after an account is
+            gone. These records are not linked to any usable account.
+          </li>
+        </ul>
+        <p>
+          Community submissions stop being visible in the feed 24 hours after posting, but the
+          underlying record is retained after that so we can handle moderation, complaints, and
+          repeat-infringement decisions. Diagnostic logs and crash reports are kept for up to 90 days
+          and then discarded. Support correspondence is kept for up to two years.
         </p>
 
         <h2>7. Posts in the Community Feed Are Public</h2>
@@ -159,9 +206,15 @@ export default function Privacy() {
 
         <h2>8. Using Knifomatic Without an Account</h2>
         <p>
-          You may use the app as a guest. In that case your data is held only on your device and is
-          never transmitted to us, so we hold no record of guest use whatsoever. Guest data is not
-          backed up and is lost if the app is removed.
+          You may use the app as a guest. In that case the collection you build stays on your device
+          and is not synced to our servers: we hold no copy of it, and it is not backed up, so it is
+          lost permanently if you remove the app.
+        </p>
+        <p>
+          Guest use is not entirely invisible to us, and we will not pretend otherwise. The app still
+          contacts our services for things like the knife catalog, so the technical and diagnostic
+          data described in section 2 — crash reports, and ordinary network logs including IP
+          addresses — is still generated. It is not tied to any account, because there is none.
         </p>
 
         <h2>9. Security</h2>

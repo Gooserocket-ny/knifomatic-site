@@ -35,8 +35,16 @@ export default function Terms() {
         <p>
           We grant you a personal, non-exclusive, non-transferable licence to install and use
           Knifomatic on devices you own or control, for your own non-commercial use, for as long as
-          you comply with these terms. We keep ownership of the app itself, its catalog, its design,
-          and its name; nothing in these terms transfers any of that to you.
+          you comply with these terms. We or our licensors own the app itself, its design, its
+          branding, our compilation of the catalog, and the other material we provide; nothing in
+          these terms transfers any of that to you.
+        </p>
+        <p>
+          Where you install the app from the App Store, this licence is also subject to the Usage
+          Rules in Apple&apos;s App Store Terms of Service, including the arrangements Apple makes for
+          Family Sharing, volume purchasing, and legacy contacts. You are responsible for complying
+          with the terms of any third-party service you use through Knifomatic, such as the video
+          platforms that host links posted to the community feed.
         </p>
 
         <h2>3. Who May Use Knifomatic</h2>
@@ -106,6 +114,14 @@ export default function Terms() {
           account may hold only a small number at a time.
         </p>
         <p>
+          By submitting content to Fresh Cuts you grant us a limited, non-exclusive, royalty-free
+          licence to store, format, display, and distribute that submission — the link together with
+          its title, channel, and preview details — within Knifomatic while it is active, and to
+          retain it for a reasonable period afterwards for moderation, complaint handling, and legal
+          compliance. You keep ownership of what you submit, and this licence ends when the record is
+          deleted.
+        </p>
+        <p>
           We may review, refuse, remove, or limit the visibility of any submission that breaches
           those rules, and we may do so without prior notice. Repeated or serious breaches may result
           in temporary or permanent loss of posting access.
@@ -142,11 +158,12 @@ export default function Terms() {
 
         <h2>11. Catalog Information and Recorded Values</h2>
         <p>
-          Our built-in catalog is compiled from publicly available sources and offered as a
-          convenience. We do not warrant that specifications, dimensions, materials, or photographs
-          are accurate, complete, or current. Please verify anything that matters with the
-          manufacturer before relying on it, particularly for purchasing, insurance, legal, or safety
-          decisions.
+          Catalog information and images come from manufacturer-supplied material, licensed sources,
+          material in the public domain, user submissions, and other sources we are permitted to use.
+          The catalog is offered as a convenience, and we do not warrant that specifications,
+          dimensions, materials, or photographs are accurate, complete, or current. Please verify
+          anything that matters with the manufacturer before relying on it, particularly for
+          purchasing, insurance, legal, or safety decisions.
         </p>
         <p>
           Any value you record, and any total the app calculates from those values, is your own
@@ -186,8 +203,11 @@ export default function Terms() {
         <p>
           You may stop using Knifomatic at any time, and you may delete your account in the app under
           Settings → Delete Account. Deletion carries a 14-day grace period, during which signing back
-          in restores your account in full; after that period the account and its data are erased
-          permanently.
+          in restores your account in full. After that period your account and collection data are
+          deleted from our active systems and we cannot retrieve them for you. Limited records are
+          kept where the law requires, and residual copies may remain in encrypted backups until
+          those expire — this is set out in section 6 of the{" "}
+          <Link href="/privacy">Privacy Policy</Link>.
         </p>
         <p>
           We may suspend or close an account that breaches these terms, misuses the service, or
