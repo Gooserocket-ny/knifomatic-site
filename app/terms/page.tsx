@@ -205,6 +205,22 @@ export default function Terms() {
           data.
         </p>
         <p>
+          Knifomatic depends on third-party services — hosting, databases, email delivery, and the
+          app stores — which we do not control. If one of them changes its terms, raises its prices,
+          or ceases to operate, we may have to change or end parts of the service, or the service as
+          a whole, and we are not liable for that.
+        </p>
+        <p>
+          <strong>
+            Buying an edition does not guarantee that the service will run for any particular length
+            of time.
+          </strong>{" "}
+          An edition is a one-time unlock of limits within the app as it exists, not a promise of
+          perpetual operation. If we discontinue Knifomatic, editions stop working along with it and
+          no refund is owed beyond whatever the store you purchased through provides under its own
+          policy.
+        </p>
+        <p>
           Knifomatic is provided on an &quot;as is&quot; and &quot;as available&quot; basis. To the
           extent permitted by law, we exclude implied warranties of merchantability, fitness for a
           particular purpose, and non-infringement. Nothing in these terms excludes or limits rights
@@ -214,11 +230,22 @@ export default function Terms() {
 
         <h2>15. Limitation of Liability</h2>
         <p>
-          To the extent permitted by law, we are not liable for indirect, incidental, special, or
-          consequential loss, nor for loss of data, loss of profit, or the value of items recorded in
-          your collection. Our total liability for all claims arising out of or relating to
-          Knifomatic is limited to the greater of the amount you paid us in the twelve months before
-          the claim arose, or US $50.
+          The data you keep in Knifomatic is a record of information about objects you own. It is not
+          the objects themselves, it holds no monetary value in its own right, and we do not accept
+          responsibility for what it may be worth to you.
+        </p>
+        <p>
+          To the extent permitted by law, we are therefore not liable for the loss, corruption, or
+          unavailability of your collections, knives, specifications, notes, recorded values, or
+          photographs, however that occurs, nor for indirect, incidental, special, or consequential
+          loss, loss of profit, or loss of opportunity. Keeping your own copies of anything you
+          cannot afford to lose is your responsibility.
+        </p>
+        <p>
+          Where we are found liable despite the above, our total liability for all claims arising out
+          of or relating to Knifomatic is limited to the amount you have paid us in the twelve months
+          before the claim arose. For anyone using the app without having bought anything, that
+          amount is nil.
         </p>
         <p>
           Some jurisdictions do not permit these exclusions or limits; where that is so, they apply
