@@ -92,8 +92,10 @@ export default function Terms() {
         <h2>6. Using the App Without an Account</h2>
         <p>
           You may use Knifomatic as a guest. Guest collection data is stored only on your device: it
-          does not sync, we do not hold or back up any copy of it, and it is lost permanently if you
-          remove the app. Ordinary technical and diagnostic data is still generated, as the{" "}
+          does not sync, and we hold no copy of it, so we can neither back it up nor restore it.
+          Removing the app normally deletes the local copy, although a device-level backup made by
+          iOS or Android may restore some local files — that process is not ours to control or
+          promise. Ordinary technical and diagnostic data is still generated, as the{" "}
           <Link href="/privacy">Privacy Policy</Link> explains. Guest accounts are subject to lower
           limits than registered accounts.
         </p>
@@ -129,7 +131,7 @@ export default function Terms() {
           new device while your account is still active, signing in restores your synced collection
           data, but not your photographs. If you have deleted your account, the collection can be
           restored only by signing back in during the 14-day grace period; once that period has
-          passed, neither the collection nor the photographs can be restored.
+          passed, we cannot restore the collection or the photographs.
         </p>
         <p>
           Photo backup is planned as part of a future optional subscription, which is separate from
@@ -169,10 +171,15 @@ export default function Terms() {
         <p>
           By submitting a link you authorise us to store and display that URL and the publicly
           available details that go with it — video title, thumbnail, channel name, and publication
-          date — within Knifomatic while the post is active, and to retain the record afterwards for
-          moderation, complaint handling, and legal compliance. You retain any rights you may have in
+          date — within Knifomatic while the post is active. You retain any rights you may have in
           the information you submit. This authorisation covers the link and its details only: it
           gives us no rights in the underlying video.
+        </p>
+        <p>
+          The details supplied by YouTube are kept only for the period set out in the{" "}
+          <Link href="/privacy">Privacy Policy</Link>, which is shorter than the life of the record
+          itself. Afterwards we keep our own part of it — which video was linked, by which account,
+          when, along with any reports and moderation decisions — for the purposes described there.
         </p>
         <p>
           You can report a link through the reporting function in the app. We may review, refuse,

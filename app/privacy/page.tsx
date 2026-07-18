@@ -189,15 +189,21 @@ export default function Privacy() {
           <strong>YouTube.</strong> Fresh Cuts is built with YouTube API Services. When a link is
           submitted we ask YouTube&apos;s API for that video&apos;s title, channel name, and
           publication date, and thumbnails are loaded directly from YouTube when the feed is
-          displayed. Google&apos;s handling of data is governed by the{" "}
+          displayed. This uses public data only — <strong>Fresh Cuts never asks for access to your
+          YouTube account</strong>, and cannot see your subscriptions, history, or anything else
+          tied to it. Google&apos;s handling of data is governed by the{" "}
           <a href="https://policies.google.com/privacy" rel="noreferrer">
             Google Privacy Policy
           </a>
-          , and you can review or revoke third-party access to your Google account at the{" "}
-          <a href="https://myaccount.google.com/permissions" rel="noreferrer">
-            Google security settings page
-          </a>
           .
+        </p>
+        <p>
+          Separately, if you chose to sign in with Google, you can review or revoke that connection
+          at any time from your{" "}
+          <a href="https://myaccount.google.com/permissions" rel="noreferrer">
+            Google security settings
+          </a>
+          . The same applies to Sign in with Apple through your Apple account settings.
         </p>
         <p>
           We are based in the United States and our providers may process data in the United States
@@ -264,8 +270,10 @@ export default function Privacy() {
         <h2>8. Using Knifomatic Without an Account</h2>
         <p>
           You may use the app as a guest. In that case the collection you build stays on your device
-          and is not synced to our servers: we hold no copy of it, and it is not backed up, so it is
-          lost permanently if you remove the app.
+          and is not synced to our servers: we hold no copy of it, so we can neither back it up nor
+          restore it. Removing the app normally deletes the local copy, although a device-level
+          backup made by iOS or Android may restore some local files — a process we neither control
+          nor can promise anything about.
         </p>
         <p>
           Guest use is not entirely invisible to us, and we will not pretend otherwise. The app still
