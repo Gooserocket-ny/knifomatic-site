@@ -47,7 +47,7 @@ export default function Privacy() {
           </ul>
 
           <h2>5. Data Retention &amp; Deletion</h2>
-          <p>You can delete your account in the app (Settings → Delete Account). Deletion is scheduled with a 90-day grace period, during which you can sign back in to restore it; after that, your account and its data are permanently erased. You may also request deletion at <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>.</p>
+          <p>You can delete your account in the app (Settings → Delete Account). Deletion is scheduled with a 14-day grace period, during which you can sign back in to restore it; after that, your account and its data are permanently erased. You may also request deletion at <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>.</p>
 
           <h2>6. Guest Use</h2>
           <p>You can use the app as a guest without an account; in that case your data is stored locally on your device only.</p>
