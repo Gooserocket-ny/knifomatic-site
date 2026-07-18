@@ -31,7 +31,27 @@ export default function Terms() {
           are agreeing on behalf of an organisation, you confirm that you are authorised to do so.
         </p>
 
-        <h2>2. Your Right to Use the App</h2>
+        <h2>2. The Service Is Provided As It Is</h2>
+        <p>
+          Knifomatic is provided on an &quot;as is&quot; and &quot;as available&quot; basis. You are
+          taking the app as you find it: you accept that it may contain faults, that it may be
+          unavailable at times, and that it is for you to judge whether it suits your purposes before
+          relying on it.
+        </p>
+        <p>
+          To the extent permitted by law, we exclude all warranties, conditions, and representations
+          that are not written into these terms, including implied warranties of merchantability,
+          fitness for a particular purpose, and non-infringement. We do not warrant that the app will
+          meet your requirements, that it will run without interruption or error, or that any defect
+          will be corrected.
+        </p>
+        <p>
+          Nothing in this clause excludes or limits rights you have as a consumer that cannot lawfully
+          be excluded, nor our liability for death or personal injury caused by our negligence, or for
+          fraud.
+        </p>
+
+        <h2>3. Your Right to Use the App</h2>
         <p>
           We grant you a personal, non-exclusive, non-transferable licence to install and use
           Knifomatic on devices you own or control, for your own non-commercial use, for as long as
@@ -47,7 +67,7 @@ export default function Terms() {
           platforms that host links posted to the community feed.
         </p>
 
-        <h2>3. Who May Use Knifomatic</h2>
+        <h2>4. Who May Use Knifomatic</h2>
         <p>
           You must be at least 13 years old, or older where your country sets a higher minimum age.
           If you are under the age of majority where you live, you may use the app only with the
@@ -60,7 +80,7 @@ export default function Terms() {
           complying with those that apply to you is your responsibility alone.
         </p>
 
-        <h2>4. Your Account</h2>
+        <h2>5. Your Account</h2>
         <p>
           Keep your sign-in details confidential and do not let anyone else use your account. You are
           responsible for activity carried out through it. If you suspect that someone has gained
@@ -70,14 +90,14 @@ export default function Terms() {
           but we may ask you to verify before those actions become available.
         </p>
 
-        <h2>5. Using the App Without an Account</h2>
+        <h2>6. Using the App Without an Account</h2>
         <p>
           You may use Knifomatic as a guest. Guest data is stored only on your device: it does not
           sync, we do not hold or back up any copy of it, and it is lost permanently if you remove
           the app. Guest accounts are subject to lower limits than registered accounts.
         </p>
 
-        <h2>6. Your Collection and Your Content</h2>
+        <h2>7. Your Collection and Your Content</h2>
         <p>
           Your collections, knives, notes, recorded values, and photographs remain yours. We claim no
           ownership over them.
@@ -90,7 +110,7 @@ export default function Terms() {
           holding the rights to any material you upload.
         </p>
 
-        <h2>7. Photographs Are Not Backed Up</h2>
+        <h2>8. Photographs Are Not Backed Up</h2>
         <p>
           Photographs you add are stored only on your device and form no part of cloud sync. If you
           reinstall the app, move to a new device, or delete your account, your collection data is
@@ -100,11 +120,11 @@ export default function Terms() {
         </p>
         <p>
           Photo backup is planned as part of a future optional subscription, which is separate from
-          the editions described in clause 13. Until such a subscription exists and you have taken
+          the editions described in clause 14. Until such a subscription exists and you have taken
           it, please treat your photographs as existing on a single device only.
         </p>
 
-        <h2>8. The Community Feed</h2>
+        <h2>9. The Community Feed</h2>
         <p>
           Fresh Cuts is a shared feed in which users post links to knife-related videos. Posts are
           visible to other users while they remain active, and are governed by the Fresh Cuts Posting
@@ -127,7 +147,7 @@ export default function Terms() {
           in temporary or permanent loss of posting access.
         </p>
 
-        <h2>9. Copyright Complaints</h2>
+        <h2>10. Copyright Complaints</h2>
         <p>
           If you believe that material accessible through Knifomatic infringes your copyright, write
           to <a href="mailto:support@knifomatic.com">support@knifomatic.com</a> identifying the
@@ -136,7 +156,7 @@ export default function Terms() {
           access from users who infringe repeatedly.
         </p>
 
-        <h2>10. Acceptable Use</h2>
+        <h2>11. Acceptable Use</h2>
         <p>When using Knifomatic you agree not to:</p>
         <ul>
           <li>break the law, infringe the rights of others, or assist anyone in doing so;</li>
@@ -156,7 +176,7 @@ export default function Terms() {
           <li>use automated means to disrupt or place unreasonable load on the service.</li>
         </ul>
 
-        <h2>11. Catalog Information and Recorded Values</h2>
+        <h2>12. Catalog Information and Recorded Values</h2>
         <p>
           Catalog information and images come from manufacturer-supplied material, licensed sources,
           material in the public domain, user submissions, and other sources we are permitted to use.
@@ -172,7 +192,7 @@ export default function Terms() {
           professional valuation.
         </p>
 
-        <h2>12. Paid Placements</h2>
+        <h2>13. Paid Placements</h2>
         <p>
           Some content in Knifomatic is paid for. Retailers may pay or make a contribution to have a
           deal listed, and community posts may be paid for or included as part of a subscription.
@@ -186,7 +206,7 @@ export default function Terms() {
           from our content rules, and we can remove one that breaks them without refund.
         </p>
 
-        <h2>13. Editions, Purchases, and Refunds</h2>
+        <h2>14. Editions, Purchases, and Refunds</h2>
         <p>
           Knifomatic is free to use. Optional paid editions increase the number of knives you may
           keep in one account and the number of photographs you may attach to each knife. The limits
@@ -213,7 +233,7 @@ export default function Terms() {
           is suspended until you are within the lower limit again or purchase once more.
         </p>
 
-        <h2>14. Ending the Agreement</h2>
+        <h2>15. Ending the Agreement</h2>
         <p>
           You may stop using Knifomatic at any time, and you may delete your account in the app under
           Settings → Delete Account. Deletion carries a 14-day grace period, during which signing back
@@ -227,11 +247,11 @@ export default function Terms() {
           We may suspend or close an account that breaches these terms, misuses the service, or
           creates risk for other users or for us. Where it is reasonable to do so, we will explain
           why and give you an opportunity to put matters right. Clauses that by their nature should
-          survive the end of this agreement — including clauses 11, 15, 16, 17, and 21 — continue to
+          survive the end of this agreement — including clauses 2, 12, 16, 17, 18, and 22 — continue to
           apply.
         </p>
 
-        <h2>15. Availability, Changes, and What We Do Not Promise</h2>
+        <h2>16. Availability and Changes to the Service</h2>
         <p>
           We do not promise that Knifomatic will always be available or free from faults. We may add,
           change, or withdraw features, and we may suspend the service for maintenance. If we
@@ -254,15 +274,8 @@ export default function Terms() {
           no refund is owed beyond whatever the store you purchased through provides under its own
           policy.
         </p>
-        <p>
-          Knifomatic is provided on an &quot;as is&quot; and &quot;as available&quot; basis. To the
-          extent permitted by law, we exclude implied warranties of merchantability, fitness for a
-          particular purpose, and non-infringement. Nothing in these terms excludes or limits rights
-          you have as a consumer that cannot lawfully be excluded, nor our liability for death or
-          personal injury caused by our negligence, or for fraud.
-        </p>
 
-        <h2>16. Limitation of Liability</h2>
+        <h2>17. Limitation of Liability</h2>
         <p>
           The data you keep in Knifomatic is a record of information about objects you own. It is not
           the objects themselves, it holds no monetary value in its own right, and we do not accept
@@ -286,7 +299,7 @@ export default function Terms() {
           only as far as the law allows.
         </p>
 
-        <h2>17. Your Responsibility for Your Content</h2>
+        <h2>18. Your Responsibility for Your Content</h2>
         <p>
           If a third party brings a claim against us because of content you submitted, or because you
           used the app in breach of these terms or of the law, you agree to cover the reasonable
@@ -294,7 +307,7 @@ export default function Terms() {
           did wrong.
         </p>
 
-        <h2>18. Purchases Through the App Stores</h2>
+        <h2>19. Purchases Through the App Stores</h2>
         <p>
           This agreement is between you and Gooserocket Corp, not with Apple or Google. Neither store
           is responsible for the app or its content, and neither has any obligation to provide
@@ -313,7 +326,7 @@ export default function Terms() {
           that you are not on any US Government list of prohibited or restricted parties.
         </p>
 
-        <h2>19. Changes to These Terms</h2>
+        <h2>20. Changes to These Terms</h2>
         <p>
           We may update these terms from time to time. The date at the top of the page will change,
           and where a change is significant we will notify you in the app or by email. If you
@@ -321,7 +334,7 @@ export default function Terms() {
           you do not accept them, you should stop using the app and may delete your account.
         </p>
 
-        <h2>20. General</h2>
+        <h2>21. General</h2>
         <p>
           If any part of these terms is found to be unenforceable, the rest continues to apply. If we
           do not enforce a right straight away, we do not lose it. You may not transfer your rights
@@ -331,7 +344,7 @@ export default function Terms() {
           Knifomatic.
         </p>
 
-        <h2>21. Governing Law</h2>
+        <h2>22. Governing Law</h2>
         <p>
           These terms are governed by the law of the State of New York, USA, and the courts of New
           York have jurisdiction over any dispute. If you are a consumer, this does not deprive you
@@ -339,7 +352,7 @@ export default function Terms() {
           bring proceedings there.
         </p>
 
-        <h2>22. Contact</h2>
+        <h2>23. Contact</h2>
         <p>
           <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>
           <br />
