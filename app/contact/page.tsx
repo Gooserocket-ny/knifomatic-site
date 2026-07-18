@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return (
-    <main className="main-contact">
+    <main className="main-doc">
       <article className="contact-card">
         <h1>Contact</h1>
         <p className="intro">Have a question, found a bug, or want to request a feature? We&apos;re available by email.</p>
