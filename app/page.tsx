@@ -1,65 +1,293 @@
 import { Slogan } from "./Slogan";
+import { Wordmark } from "./layout";
+
+// A screenshot slot. Until a real capture exists, it renders a labelled
+// drafting placeholder at the exact device aspect ratio, so the layout is final
+// and adding the image later is just passing `src`.
+// Screenshots: portrait 1080 × 2340 (9:19.5), PNG, full device resolution.
+function Figure({
+  ref_,
+  what,
+  src,
+  small = true,
+}: {
+  ref_: string;
+  what: string;
+  src?: string;
+  small?: boolean;
+}) {
+  return (
+    <div className={small ? "device sm" : "device"}>
+      <div className="screen">
+        {src ? (
+          // Plain <img>: these are fixed-size static screenshots inside a frame
+          // that already constrains them, so next/image's optimizer would add
+          // Cloudflare cost for no benefit.
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={src} alt={`Knifomatic — ${what}`} />
+        ) : (
+          <>
+            <span className="crosshair" aria-hidden="true">
+              <span className="h" />
+              <span className="v" />
+            </span>
+            <span className="fig">{ref_}</span>
+            <span className="what">{what}</span>
+            <span className="dim">1080 × 2340</span>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
 
 export default function Home() {
   return (
-    <main className="main-home">
-      <section className="hero">
-        <div className="logo">
-          <div className="wordmark">
-            KNIF
-            <svg className="wm-gear" viewBox="-50 -50 100 100" aria-hidden="true">
-              <use href="#gearO" />
-            </svg>
-            MATIC
+    <main>
+      <div className="hero">
+        <div className="hero-copy">
+          <div className="logo">
+            <Wordmark className="wordmark" />
+            <Slogan />
           </div>
-          <Slogan />
+
+          <h1>Every blade you own, measured and accounted for.</h1>
+          <p className="sub">
+            Catalog each knife with real specs, sort them into collections that match how you
+            actually think about your gear, and keep it all synced across your devices.
+          </p>
+
+          <div className="cta">
+            <a
+              className="btn btn-primary"
+              href="https://play.google.com/store/apps/details?id=com.gooserocket.knifomatic"
+            >
+              Get it on Google Play
+            </a>
+            <span className="btn btn-disabled" aria-disabled="true">
+              Download on the App Store <span className="soon">Soon</span>
+            </span>
+          </div>
+
+          <div className="hero-meta">
+            <span>FREE TO USE</span>
+            <span>NO ADS · NO TRACKING</span>
+            <span>WORKS OFFLINE</span>
+          </div>
         </div>
-        <p className="sub">
-          A precision toolkit for knife enthusiasts — catalog every blade, organize your collections, and sync across devices.
-        </p>
-        <div className="cta">
-          <a className="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.gooserocket.knifomatic">Get it on Google Play</a>
-          <a className="btn btn-ghost" href="#">Download on the App Store</a>
+
+        <div className="hero-figure">
+          <div className="dimline" aria-hidden="true">
+            <svg viewBox="0 0 52 520" preserveAspectRatio="none">
+              <line x1="40" y1="4" x2="40" y2="516" />
+              <line x1="30" y1="4" x2="50" y2="4" />
+              <line x1="30" y1="516" x2="50" y2="516" />
+              <path d="M40 4 L36 14 M40 4 L44 14" />
+              <path d="M40 516 L36 506 M40 516 L44 506" />
+            </svg>
+          </div>
+          <Figure ref_="FIG. 01" what="Home screen" small={false} />
+        </div>
+      </div>
+
+      {/* ── Screens ──────────────────────────────────────────────────────── */}
+      <section className="sec" id="screens">
+        <div className="sec-head">
+          <div className="eyebrow">Sheet 02 — Interface</div>
+          <h2>See it before you install it.</h2>
+          <p>
+            Three views that cover how the app is actually used day to day: what you own, what
+            exists, and what a single knife looks like written down properly.
+          </p>
+        </div>
+
+        <div className="figs">
+          <div className="fig-item">
+            <Figure ref_="FIG. 02" what="Collections" />
+            <div className="fig-cap">
+              <span className="ref">FIG. 02</span>
+              <span className="name">Collections</span>
+              <span className="note">
+                Shelves, tier lists, or a carry rotation — grouped the way you think about them.
+              </span>
+            </div>
+          </div>
+
+          <div className="fig-item">
+            <Figure ref_="FIG. 03" what="Catalog" />
+            <div className="fig-cap">
+              <span className="ref">FIG. 03</span>
+              <span className="name">Built-in catalog</span>
+              <span className="note">
+                Find the knife you own and add it with steel, dimensions, and photo already filled in.
+              </span>
+            </div>
+          </div>
+
+          <div className="fig-item">
+            <Figure ref_="FIG. 04" what="Knife detail" />
+            <div className="fig-cap">
+              <span className="ref">FIG. 04</span>
+              <span className="name">Full spec sheet</span>
+              <span className="note">
+                Steel, handle, lock, length, weight — recorded per knife and ready to export.
+              </span>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="features">
+      {/* ── Features ─────────────────────────────────────────────────────── */}
+      <section className="sec" id="features">
+        <div className="sec-head">
+          <div className="eyebrow">Sheet 03 — Capabilities</div>
+          <h2>Built for people who keep track.</h2>
+        </div>
+
         <div className="grid">
           <div className="card">
-            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
-            <h3>Collections</h3>
-            <p>Organize your blades your way — plain shelves, ranked tier lists, or a daily-rotation set. Build as many collections as you need and reorder them in a tap.</p>
+            <svg className="ico" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <rect x="4" y="6" width="24" height="6" rx="1" />
+              <rect x="4" y="14" width="24" height="6" rx="1" />
+              <rect x="4" y="22" width="24" height="6" rx="1" />
+              <path d="M8 9h3M8 17h3M8 25h3" />
+            </svg>
+            <h3><span className="idx">01</span>Collections</h3>
+            <p>
+              Organize your blades your way — plain shelves, ranked tier lists, or a daily-rotation
+              set. Build as many as you need and reorder them in a tap.
+            </p>
           </div>
+
           <div className="card">
-            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 5h18v14H3zM3 9h18" /></svg>
-            <h3>Built-in Catalog</h3>
-            <p>Start from a curated library of popular knives with steel, dimensions, and photos already filled in. Add one to your collection instead of typing every spec by hand.</p>
+            <svg className="ico" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M3 20 L14 20 L24 14 L28 16 L24 20" />
+              <path d="M3 20 L3 23 M28 16 L28 19" />
+              <path d="M3 25 L28 25" />
+              <path d="M3 23.5 L3 26.5 M28 23.5 L28 26.5" />
+            </svg>
+            <h3><span className="idx">02</span>Built-in catalog</h3>
+            <p>
+              Start from a curated library of popular knives with steel, dimensions, and photos
+              already filled in — instead of typing every spec by hand.
+            </p>
           </div>
+
           <div className="card">
-            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7M21 4v5h-5" /></svg>
-            <h3>Daily Rotation</h3>
-            <p>Let Knifomatic feature a different knife on your home screen every day — a fresh reason to appreciate pieces you don&apos;t carry as often.</p>
+            <svg className="ico" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M27 16a11 11 0 1 1-3.6-8.1" />
+              <path d="M27 5v6h-6" />
+              <circle cx="16" cy="16" r="2.4" />
+            </svg>
+            <h3><span className="idx">03</span>Daily rotation</h3>
+            <p>
+              Knifomatic features a different knife on your home screen every day — a fresh reason
+              to appreciate pieces you don&apos;t carry as often.
+            </p>
           </div>
+
           <div className="card">
-            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v18M6 8h12M6 16h12" /></svg>
-            <h3>Full Specs</h3>
-            <p>Record blade steel, handle material, lock type, length, and weight for every knife. Export a clean spec sheet to share, insure, or keep for your records.</p>
+            <svg className="ico" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M6 12 L20 12 L26 16 L20 20 L6 20 Z" />
+              <path d="M6 8 L6 5 M26 8 L26 5" />
+              <path d="M6 6.5 L26 6.5" />
+              <path d="M11 24 L11 27 M21 24 L21 27" />
+            </svg>
+            <h3><span className="idx">04</span>Full specs</h3>
+            <p>
+              Record blade steel, handle material, lock type, length, and weight for every knife.
+              Export a clean spec sheet to share, insure, or file away.
+            </p>
           </div>
+
           <div className="card">
-            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a9 9 0 0 0 0 18 4 4 0 0 0 0-8 3 3 0 0 1 0-6z" /></svg>
-            <h3>Themes</h3>
-            <p>Switch between the signature blueprint look and a clean simple theme, then pick your own accent color to make the app feel like yours.</p>
+            <svg className="ico" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <circle cx="16" cy="16" r="11" />
+              <path d="M16 5 A11 11 0 0 1 16 27 Z" fill="currentColor" stroke="none" opacity=".55" />
+            </svg>
+            <h3><span className="idx">05</span>Themes</h3>
+            <p>
+              Switch between the signature blueprint look and a clean simple theme, then pick your
+              own accent color to make the app feel like yours.
+            </p>
           </div>
+
           <div className="card">
-            <svg className="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12a8 8 0 0 1 14-5M20 12a8 8 0 0 1-14 5M17 4v3h-3M7 20v-3h3" /></svg>
-            <h3>Cloud Sync</h3>
-            <p>Back up your collection and photos to the cloud and keep every device in sync. Switch phones or reinstall — your whole catalog comes right back.</p>
+            <svg className="ico" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M9 21a5 5 0 0 1 .6-9.96 7 7 0 0 1 13.2 2.1A4.5 4.5 0 0 1 22.5 21z" />
+              <path d="M13 25.5h6" />
+              <path d="M15 23.5 L13 25.5 L15 27.5" />
+            </svg>
+            <h3><span className="idx">06</span>Cloud sync</h3>
+            <p>
+              Back up your collection and photos, and keep every device in sync. Switch phones or
+              reinstall — your whole catalog comes right back.
+            </p>
           </div>
         </div>
-        <div className="about-note">
-          <p><strong>Knifomatic</strong> is developed and published by Gooserocket Corp, a mobile software company based in New York.</p>
-          <p>We build focused, practical apps for enthusiast communities. Knifomatic is our first product in the collector tools space — designed to be fast, simple, and respectful of your privacy.</p>
-          <p>Our goal is to give collectors a tool that works the way they think: organized by what you own, what you want, and what you&apos;re selling.</p>
+      </section>
+
+      {/* ── Themes ───────────────────────────────────────────────────────── */}
+      <section className="sec" id="themes">
+        <div className="sec-head">
+          <div className="eyebrow">Sheet 04 — Appearance</div>
+          <h2>Two looks, same tool.</h2>
+          <p>
+            The blueprint theme is the one this whole thing is named after. If you&apos;d rather it
+            got out of the way, the simple theme does exactly that.
+          </p>
+        </div>
+
+        <div className="themes">
+          <div className="theme-item">
+            <Figure ref_="FIG. 05" what="Blueprint theme" />
+            <div className="fig-cap">
+              <span className="ref">FIG. 05</span>
+              <span className="name">Blueprint</span>
+            </div>
+          </div>
+          <div className="theme-item">
+            <Figure ref_="FIG. 06" what="Simple theme" />
+            <div className="fig-cap">
+              <span className="ref">FIG. 06</span>
+              <span className="name">Simple</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── About ────────────────────────────────────────────────────────── */}
+      <section className="sec" id="about">
+        <div className="sec-head">
+          <div className="eyebrow">Sheet 05 — Who builds this</div>
+          <h2>Gooserocket Corp</h2>
+        </div>
+
+        <div className="about">
+          <div>
+            <p>
+              <strong>Knifomatic</strong> is developed and published by Gooserocket Corp, a mobile
+              software company based in New York.
+            </p>
+            <p>
+              We build focused, practical apps for enthusiast communities. Knifomatic is our first
+              product in the collector tools space — designed to be fast, simple, and respectful of
+              your privacy.
+            </p>
+            <p>
+              Our goal is to give collectors a tool that works the way they think: organized by what
+              you own, what you want, and what you&apos;re selling.
+            </p>
+          </div>
+
+          <div className="spec-table">
+            <div className="row"><span className="k">Publisher</span><span className="v">Gooserocket Corp</span></div>
+            <div className="row"><span className="k">Based in</span><span className="v">New York, USA</span></div>
+            <div className="row"><span className="k">Platforms</span><span className="v">Android · iOS soon</span></div>
+            <div className="row"><span className="k">Price</span><span className="v">Free</span></div>
+            <div className="row"><span className="k">Ads</span><span className="v">None</span></div>
+            <div className="row"><span className="k">Tracking</span><span className="v">None</span></div>
+          </div>
         </div>
       </section>
     </main>
