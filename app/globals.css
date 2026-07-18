@@ -233,6 +233,19 @@ header.top nav a:hover,header.top nav a:focus-visible{color:var(--text);border-b
 .help{margin-top:26px;padding-top:20px;border-top:1px solid var(--line)}
 .help h2{margin-top:0}
 .help p{margin-bottom:14px}
+/* Registered contact details — set apart because Apple, Google, and the DSA all
+   require them to be findable rather than buried in a paragraph. */
+.contact-block{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 28px;
+  margin-top:14px;padding:16px 18px;
+  border:1px solid var(--line);border-radius:var(--radius);background:rgba(16,42,67,.5);
+}
+.contact-block p{font-family:var(--mono);font-size:12.5px;line-height:1.75;color:var(--text-2)}
+.contact-block strong{color:var(--text);font-weight:700}
+.contact-block a{color:var(--text-2);text-decoration-color:var(--accent);text-underline-offset:3px}
+.contact-block a:hover,.contact-block a:focus-visible{color:var(--text)}
+@media (max-width:520px){.contact-block{grid-template-columns:1fr;gap:12px}}
+
 .contact-list{display:grid;gap:9px;margin-top:22px}
 .contact-list p{display:grid;grid-template-columns:125px 1fr;gap:14px;align-items:baseline}
 .contact-list strong{color:var(--text);font-weight:700}

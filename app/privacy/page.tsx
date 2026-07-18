@@ -269,11 +269,22 @@ export default function Privacy() {
           is significant we will notify you in the app or by email. Continuing to use Knifomatic
           after a change means the updated policy applies to you.
         </p>
-        <p>
-          <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>
-          <br />
-          Gooserocket Corp, New York, USA
-        </p>
+        <div className="contact-block">
+          <p>
+            <strong>Gooserocket Corp</strong>
+            <br />
+            983 Willis Ave Ste 201
+            <br />
+            Albertson, NY 11507-1932
+            <br />
+            United States
+          </p>
+          <p>
+            <a href="tel:+19295031385">+1 929-503-1385</a>
+            <br />
+            <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>
+          </p>
+        </div>
       </article>
     </main>
   );

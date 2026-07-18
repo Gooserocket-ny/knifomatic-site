@@ -373,10 +373,26 @@ export default function Terms() {
 
         <h2>23. Contact</h2>
         <p>
-          <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>
-          <br />
-          Gooserocket Corp, New York, USA
+          Questions, complaints, and support requests about Knifomatic go to Gooserocket Corp at the
+          details below. We are the party responsible for the app, including its support and
+          maintenance.
         </p>
+        <div className="contact-block">
+          <p>
+            <strong>Gooserocket Corp</strong>
+            <br />
+            983 Willis Ave Ste 201
+            <br />
+            Albertson, NY 11507-1932
+            <br />
+            United States
+          </p>
+          <p>
+            <a href="tel:+19295031385">+1 929-503-1385</a>
+            <br />
+            <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>
+          </p>
+        </div>
       </article>
     </main>
   );
