@@ -21,7 +21,8 @@ export default function Support() {
             </section>
             <section>
               <h3>My collections disappeared after reinstalling the app</h3>
-              <p>Make sure you are signed in with the same account you used before. Your data is synced to the cloud automatically when you log in — it may take a few seconds to appear.</p>
+              <p>Make sure you are signed in with the same account you used before. Your collections, knives, and specifications sync from the cloud automatically when you log in — it may take a few seconds to appear.</p>
+              <p>Photos are the exception: they are stored only on the device that added them and are not currently uploaded, so they do not come back after a reinstall or on a new phone. Keep your own copies of images you care about. Photo backup is planned as part of a future subscription.</p>
             </section>
             <section>
               <h3>Can I use the app without an account?</h3>

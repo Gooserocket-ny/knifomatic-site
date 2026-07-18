@@ -220,8 +220,9 @@ export default function Home() {
             </svg>
             <h3><span className="idx">06</span>Cloud sync</h3>
             <p>
-              Back up your collection and photos, and keep every device in sync. Switch phones or
-              reinstall — your whole catalog comes right back.
+              Your collections, knives, and specs back up to your account and sync across devices.
+              Sign in on a new phone and your catalog is already there. Photos stay on the device
+              that added them.
             </p>
           </div>
         </div>
