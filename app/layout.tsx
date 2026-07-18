@@ -34,6 +34,7 @@ function Header() {
         <Link href="/#screens">Screens</Link>
         <Link href="/support">Support</Link>
         <Link href="/privacy">Privacy</Link>
+        <Link href="/terms">Terms</Link>
         <Link href="/contact">Contact</Link>
       </nav>
     </header>
@@ -61,6 +62,8 @@ function Footer() {
         <span className="k">Documents</span>
         <span className="v">
           <Link href="/privacy">Privacy Policy</Link>
+          <br />
+          <Link href="/terms">Terms of Service</Link>
         </span>
       </div>
       <div className="tb">
