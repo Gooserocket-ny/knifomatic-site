@@ -291,10 +291,11 @@ export default function Terms() {
           You may stop using Knifomatic at any time, and you may delete your account in the app under
           Settings → Delete Account. Deletion carries a 14-day grace period, during which signing back
           in restores your account in full. After that period your account and collection data are
-          deleted from our active systems and we cannot retrieve them for you. Limited records are
-          kept where the law requires, and residual copies may remain in encrypted backups until
-          those expire — this is set out in section 6 of the{" "}
-          <Link href="/privacy">Privacy Policy</Link>.
+          deleted from our active systems and we cannot retrieve them for you. Some limited records
+          outlive that: purchase history, moderation records from the community feed, and anything
+          needed to prevent fraud, settle a dispute, or meet a legal obligation — and residual copies
+          may remain in encrypted backups until those expire on their normal rotation. Section 6 of
+          the <Link href="/privacy">Privacy Policy</Link> sets out each of them and for how long.
         </p>
         <p>
           We may suspend or close an account that breaches these terms, misuses the service, or

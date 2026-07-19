@@ -191,7 +191,13 @@ export default function Privacy() {
           publication date, and thumbnails are loaded directly from YouTube when the feed is
           displayed. This uses public data only — <strong>Fresh Cuts never asks for access to your
           YouTube account</strong>, and cannot see your subscriptions, history, or anything else
-          tied to it. Google&apos;s handling of data is governed by the{" "}
+          tied to it.
+        </p>
+        <p>
+          Because thumbnails load straight from YouTube rather than through us, your device connects
+          to YouTube directly whenever the feed is shown. YouTube may therefore receive technical
+          information of its own — your IP address, basic device and app details, and the time of the
+          request — which we never see. Google&apos;s handling of data is governed by the{" "}
           <a href="https://policies.google.com/privacy" rel="noreferrer">
             Google Privacy Policy
           </a>
@@ -226,8 +232,8 @@ export default function Privacy() {
           from our active systems and we can no longer retrieve them for you.
         </p>
         <p>
-          Two things outlive that deletion, and we would rather say so plainly than imply a clean
-          erasure we cannot deliver:
+          A few limited categories outlive that deletion, and we would rather say so plainly than
+          imply a clean erasure we cannot deliver:
         </p>
         <ul>
           <li>
@@ -242,12 +248,21 @@ export default function Privacy() {
             prevention, and dispute resolution, because a refund can arrive long after an account is
             gone. These records are no longer connected to an active Knifomatic account.
           </li>
+          <li>
+            <strong>Moderation records.</strong> If you posted to Fresh Cuts or reported someone
+            else&apos;s link, the record of that — which video, when, the reports filed, and what was
+            decided — is kept for up to 12 months, together with the account identifier it belonged
+            to. We keep it to investigate open complaints, enforce posting restrictions, settle
+            disputes, and prevent the same problems recurring. It holds nothing about your
+            collection.
+          </li>
         </ul>
         <p>
           Community submissions stop being visible in the feed 24 hours after posting.{" "}
           <strong>
             The details that came from YouTube — title, channel, publication date — are erased within
-            30 days of posting
+            30 days of posting, or within seven days of your account deletion becoming final,
+            whichever comes first
           </strong>
           , as YouTube&apos;s API terms require. What remains afterwards is our own record: which
           video was linked, by which account, when, and any moderation decision. That is kept for up
