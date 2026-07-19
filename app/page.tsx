@@ -231,29 +231,69 @@ export default function Home() {
       {/* ── Themes ───────────────────────────────────────────────────────── */}
       <section className="sec" id="themes">
         <div className="sec-head">
-          <div className="eyebrow">Sheet 04 — Appearance</div>
-          <h2>Two looks, same tool.</h2>
+          <div className="eyebrow">Sheet 04 — Editions</div>
+          <h2>Free to use. Bigger if you need bigger.</h2>
           <p>
-            The blueprint theme is the one this whole thing is named after. If you&apos;d rather it
-            got out of the way, the simple theme does exactly that.
+            Knifomatic costs nothing and stays useful that way. If your collection outgrows the
+            starting limits, an edition raises them — once, permanently, with nothing recurring to
+            cancel.
           </p>
         </div>
 
-        <div className="themes">
-          <div className="theme-item">
-            <Figure ref_="FIG. 05" what="Blueprint theme" />
-            <div className="fig-cap">
-              <span className="ref">FIG. 05</span>
-              <span className="name">Blueprint</span>
+        <div className="editions">
+          <div className="edition">
+            <div className="ed-head">
+              <span className="ed-rank">01</span>
+              <h3>Everyday</h3>
+            </div>
+            <p className="ed-note">Where every account starts. Free, no purchase.</p>
+            <div className="ed-spec">
+              <div className="row"><span className="k">Knives</span><span className="v">100</span></div>
+              <div className="row"><span className="k">Photos each</span><span className="v">1</span></div>
             </div>
           </div>
-          <div className="theme-item">
-            <Figure ref_="FIG. 06" what="Simple theme" />
-            <div className="fig-cap">
-              <span className="ref">FIG. 06</span>
-              <span className="name">Simple</span>
+
+          <div className="edition">
+            <div className="ed-head">
+              <span className="ed-rank">02</span>
+              <h3>Enthusiast</h3>
+            </div>
+            <p className="ed-note">For a collection that has stopped fitting in a drawer.</p>
+            <div className="ed-spec">
+              <div className="row"><span className="k">Knives</span><span className="v">300</span></div>
+              <div className="row"><span className="k">Photos each</span><span className="v">3</span></div>
             </div>
           </div>
+
+          <div className="edition">
+            <div className="ed-head">
+              <span className="ed-rank">03</span>
+              <h3>Collector</h3>
+            </div>
+            <p className="ed-note">Room enough that you will not think about it again.</p>
+            <div className="ed-spec">
+              <div className="row"><span className="k">Knives</span><span className="v">3,000</span></div>
+              <div className="row"><span className="k">Photos each</span><span className="v">6</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div className="ed-terms">
+          <p>
+            <strong>One-time purchases, not subscriptions.</strong> Nothing renews, nothing lapses,
+            and there is nothing to remember to cancel. Moving up replaces the edition below rather
+            than stacking on top of it.
+          </p>
+          <p>
+            <strong>What you buy stays bought.</strong> We will not reduce the limits of an edition
+            you already own. They can go up — and if they do, you get the increase — but they will
+            not go down.
+          </p>
+          <p>
+            Prices are set by the App Store and Google Play in your own currency, and are shown in
+            the app before you buy. Guests can use Knifomatic without an account at all, with lower
+            limits and no sync.
+          </p>
         </div>
       </section>
 
