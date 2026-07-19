@@ -244,7 +244,7 @@ export default function Home() {
           <div className="edition">
             <div className="ed-head">
               <span className="ed-rank">01</span>
-              <h3>Everyday</h3>
+              <h3>Starter</h3>
             </div>
             <p className="ed-note">Where every account starts. Free, no purchase.</p>
             <div className="ed-spec">
