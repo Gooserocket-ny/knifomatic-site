@@ -275,8 +275,9 @@ export default function Privacy() {
           the record they concern and are removed with it.
         </p>
         <p>
-          Diagnostic logs and crash reports are kept for up to 90 days and then discarded. Support
-          correspondence is kept for up to two years.
+          Diagnostic logs and crash reports are kept no longer than our diagnostics provider retains
+          them — currently up to 30 days — and are then discarded. Support correspondence is kept for
+          up to two years.
         </p>
 
         <h2>7. Posts in the Community Feed Are Public</h2>
