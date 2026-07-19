@@ -197,7 +197,12 @@ export default function Privacy() {
           Because thumbnails load straight from YouTube rather than through us, your device connects
           to YouTube directly whenever the feed is shown. YouTube may therefore receive technical
           information of its own — your IP address, basic device and app details, and the time of the
-          request — which we never see. Google&apos;s handling of data is governed by the{" "}
+          request — which we never see. The same is true of{" "}
+          <strong>Reddit</strong>: the headlines shown on the home screen are read from the public
+          feeds of a fixed list of knife-related subreddits, and your device fetches them from Reddit
+          directly, so Reddit may receive the same kind of technical information under its own
+          privacy policy. We send Reddit nothing about you, and we neither write nor moderate what
+          appears in those subreddits. Google&apos;s handling of data is governed by the{" "}
           <a href="https://policies.google.com/privacy" rel="noreferrer">
             Google Privacy Policy
           </a>

@@ -62,8 +62,16 @@ export default function Terms() {
           Where you install the app from the App Store, this licence is also subject to the Usage
           Rules in Apple&apos;s App Store Terms of Service, including the arrangements Apple makes for
           Family Sharing, volume purchasing, and legacy contacts. You are responsible for complying
-          with the terms of any third-party service you use through Knifomatic, such as the video
-          platforms that host links posted to the community feed.
+          with the terms of any third-party service you reach through Knifomatic — YouTube, which
+          hosts the videos linked in the community feed, Reddit, whose public feeds supply the
+          headlines on the home screen, and the retailers behind listed deals.
+        </p>
+        <p>
+          Content on those services is not ours. We do not write, host, or moderate the videos, the
+          Reddit posts, or anything on a retailer&apos;s site, we do not endorse them by showing
+          them, and we are not responsible for what you find there. The list of subreddits we read
+          from is fixed and chosen by us, but what people post inside them is not something we
+          control.
         </p>
 
         <h2>4. Who May Use Knifomatic</h2>
