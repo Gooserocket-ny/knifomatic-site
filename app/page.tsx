@@ -71,7 +71,7 @@ export default function Home() {
 
           <div className="hero-meta">
             <span>FREE TO USE</span>
-            <span>NO TRACKING · NO DATA SELLING</span>
+            <span>NO PERSONALIZED ADS · NO DATA SELLING</span>
             <span>WORKS OFFLINE</span>
           </div>
         </div>
@@ -172,10 +172,9 @@ export default function Home() {
 
           <div className="card">
             <svg className="ico" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M3 20 L14 20 L24 14 L28 16 L24 20" />
-              <path d="M3 20 L3 23 M28 16 L28 19" />
-              <path d="M3 25 L28 25" />
-              <path d="M3 23.5 L3 26.5 M28 23.5 L28 26.5" />
+              <path d="M16 9 C12.5 6.5 8 6.5 4.5 7.8 L4.5 25 C8 23.7 12.5 23.7 16 26" />
+              <path d="M16 9 C19.5 6.5 24 6.5 27.5 7.8 L27.5 25 C24 23.7 19.5 23.7 16 26" />
+              <path d="M16 9 L16 26" />
             </svg>
             <h3><span className="idx">02</span>Built-in catalog</h3>
             <p>
