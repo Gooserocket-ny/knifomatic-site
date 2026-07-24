@@ -4,7 +4,7 @@ import { Wordmark } from "./layout";
 // A screenshot slot. Until a real capture exists, it renders a labelled
 // drafting placeholder at the exact device aspect ratio, so the layout is final
 // and adding the image later is just passing `src`.
-// Screenshots: portrait 1080 × 2340 (9:19.5), PNG, full device resolution.
+// Screenshots: portrait 1080 × 2340 (9:19.5), WebP, full device resolution.
 function Figure({
   ref_,
   what,
@@ -86,7 +86,7 @@ export default function Home() {
               <path d="M40 516 L36 506 M40 516 L44 506" />
             </svg>
           </div>
-          <Figure ref_="FIG. 01" what="Home screen" src="/screens/home.jpg" small={false} />
+          <Figure ref_="FIG. 01" what="Home screen" src="/screens/home.webp" small={false} />
         </div>
       </div>
 
@@ -103,7 +103,7 @@ export default function Home() {
 
         <div className="figs">
           <div className="fig-item">
-            <Figure ref_="FIG. 02" what="Collections" src="/screens/collections.jpg" />
+            <Figure ref_="FIG. 02" what="Collections" src="/screens/collections.webp" />
             <div className="fig-cap">
               <span className="ref">FIG. 02</span>
               <span className="name">Collections</span>
@@ -114,7 +114,7 @@ export default function Home() {
           </div>
 
           <div className="fig-item">
-            <Figure ref_="FIG. 03" what="Collection contents" src="/screens/collection-contents.jpg" />
+            <Figure ref_="FIG. 03" what="Collection contents" src="/screens/collection-contents.webp" />
             <div className="fig-cap">
               <span className="ref">FIG. 03</span>
               <span className="name">Inside a collection</span>
@@ -125,7 +125,7 @@ export default function Home() {
           </div>
 
           <div className="fig-item">
-            <Figure ref_="FIG. 04" what="Catalog" src="/screens/catalog.jpg" />
+            <Figure ref_="FIG. 04" what="Catalog" src="/screens/catalog.webp" />
             <div className="fig-cap">
               <span className="ref">FIG. 04</span>
               <span className="name">Built-in catalog</span>
@@ -136,7 +136,7 @@ export default function Home() {
           </div>
 
           <div className="fig-item">
-            <Figure ref_="FIG. 05" what="Knife detail" src="/screens/knife-detail.jpg" />
+            <Figure ref_="FIG. 05" what="Knife detail" src="/screens/knife-detail.webp" />
             <div className="fig-cap">
               <span className="ref">FIG. 05</span>
               <span className="name">Full spec sheet</span>
