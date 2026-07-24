@@ -24,7 +24,7 @@ function Figure({
           // that already constrains them, so next/image's optimizer would add
           // Cloudflare cost for no benefit.
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={src} alt={`Knifomatic — ${what}`} />
+          <img src={src} alt={`Knifomatic: ${what}`} />
         ) : (
           <>
             <span className="crosshair" aria-hidden="true">
@@ -94,7 +94,7 @@ export default function Home() {
       {/* ── Screens ──────────────────────────────────────────────────────── */}
       <section className="sec" id="screens">
         <div className="sec-head">
-          <div className="eyebrow">Sheet 02 — Interface</div>
+          <div className="eyebrow">Sheet 02 · Interface</div>
           <h2>See it before you install it.</h2>
           <p>
             Four views that cover how the app is actually used day to day: your collections, the
@@ -109,7 +109,7 @@ export default function Home() {
               <span className="ref">FIG. 02</span>
               <span className="name">Collections</span>
               <span className="note">
-                Shelves, tier lists, or a carry rotation — grouped the way you think about them.
+                Shelves, tier lists, or a carry rotation, grouped the way you think about them.
               </span>
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function Home() {
               <span className="ref">FIG. 05</span>
               <span className="name">Full spec sheet</span>
               <span className="note">
-                Steel, handle, lock, length, weight — recorded per knife and ready to export.
+                Steel, handle, lock, length, weight: recorded per knife and ready to export.
               </span>
             </div>
           </div>
@@ -152,7 +152,7 @@ export default function Home() {
       {/* ── Features ─────────────────────────────────────────────────────── */}
       <section className="sec" id="features">
         <div className="sec-head">
-          <div className="eyebrow">Sheet 03 — Capabilities</div>
+          <div className="eyebrow">Sheet 03 · Capabilities</div>
           <h2>Built for people who keep track.</h2>
         </div>
 
@@ -166,7 +166,7 @@ export default function Home() {
             </svg>
             <h3><span className="idx">01</span>Collections</h3>
             <p>
-              Organize your blades your way — plain shelves, ranked tier lists, or a daily-rotation
+              Organize your blades your way: plain shelves, ranked tier lists, or a daily-rotation
               set. Build as many as you need and reorder them in a tap.
             </p>
           </div>
@@ -180,7 +180,7 @@ export default function Home() {
             <h3><span className="idx">02</span>Built-in catalog</h3>
             <p>
               Start from a curated library of popular knives with steel, dimensions, and photos
-              already filled in — instead of typing every spec by hand.
+              already filled in, instead of typing every spec by hand.
             </p>
           </div>
 
@@ -192,7 +192,7 @@ export default function Home() {
             </svg>
             <h3><span className="idx">03</span>Daily rotation</h3>
             <p>
-              Knifomatic features a different knife on your home screen every day — a fresh reason
+              Knifomatic features a different knife on your home screen every day, a fresh reason
               to appreciate pieces you don&apos;t carry as often.
             </p>
           </div>
@@ -242,11 +242,11 @@ export default function Home() {
       {/* ── Themes ───────────────────────────────────────────────────────── */}
       <section className="sec" id="themes">
         <div className="sec-head">
-          <div className="eyebrow">Sheet 04 — Editions</div>
+          <div className="eyebrow">Sheet 04 · Editions</div>
           <h2>Free to use. Bigger if you need bigger.</h2>
           <p>
             Knifomatic costs nothing and stays useful that way. If your collection outgrows the
-            starting limits, an edition raises them — once, permanently, with nothing recurring to
+            starting limits, an edition raises them once, permanently, with nothing recurring to
             cancel.
           </p>
         </div>
@@ -297,7 +297,7 @@ export default function Home() {
           </p>
           <p>
             <strong>What you buy stays bought.</strong> We will not reduce the limits of an edition
-            you already own. They can go up — and if they do, you get the increase — but they will
+            you already own. They can go up, and if they do, you get the increase, but they will
             not go down.
           </p>
           <p>
@@ -311,7 +311,7 @@ export default function Home() {
       {/* ── About ────────────────────────────────────────────────────────── */}
       <section className="sec" id="about">
         <div className="sec-head">
-          <div className="eyebrow">Sheet 05 — Who builds this</div>
+          <div className="eyebrow">Sheet 05 · Who builds this</div>
           <h2>Gooserocket Corp</h2>
         </div>
 
@@ -323,7 +323,7 @@ export default function Home() {
             </p>
             <p>
               We build focused, practical apps for enthusiast communities. Knifomatic is our first
-              product in the collector tools space — designed to be fast, simple, and respectful of
+              product in the collector tools space, designed to be fast, simple, and respectful of
               your privacy.
             </p>
             <p>
