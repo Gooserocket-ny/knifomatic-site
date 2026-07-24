@@ -151,7 +151,7 @@ header.top nav a:hover,header.top nav a:focus-visible{color:var(--text);border-b
 .sec-head p{color:var(--text-2);font-size:var(--step-1);max-width:62ch}
 
 /* ── Figures (screenshots) ────────────────────────────────────────────────── */
-.figs{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.figs{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
 .fig-item{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center}
 .fig-cap{display:flex;flex-direction:column;gap:5px}
 .fig-cap .ref{font-family:var(--mono);font-size:11px;letter-spacing:1.3px;color:var(--accent)}
@@ -291,6 +291,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 
 /* ── Responsive ───────────────────────────────────────────────────────────── */
 @media (max-width:960px){
+  /* Four devices in a row get cramped below ~960; go two-by-two. */
+  .figs{grid-template-columns:repeat(2,1fr)}
   .hero{grid-template-columns:1fr;gap:44px;padding:48px 0 56px}
   .hero-figure{order:2;justify-content:flex-start}
   .dimline{display:none}

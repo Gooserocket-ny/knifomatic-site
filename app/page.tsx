@@ -86,7 +86,7 @@ export default function Home() {
               <path d="M40 516 L36 506 M40 516 L44 506" />
             </svg>
           </div>
-          <Figure ref_="FIG. 01" what="Home screen" small={false} />
+          <Figure ref_="FIG. 01" what="Home screen" src="/screens/home.jpg" small={false} />
         </div>
       </div>
 
@@ -96,14 +96,14 @@ export default function Home() {
           <div className="eyebrow">Sheet 02 — Interface</div>
           <h2>See it before you install it.</h2>
           <p>
-            Three views that cover how the app is actually used day to day: what you own, what
-            exists, and what a single knife looks like written down properly.
+            Four views that cover how the app is actually used day to day: your collections, the
+            knives inside them, the built-in catalog, and a single knife written down properly.
           </p>
         </div>
 
         <div className="figs">
           <div className="fig-item">
-            <Figure ref_="FIG. 02" what="Collections" />
+            <Figure ref_="FIG. 02" what="Collections" src="/screens/collections.jpg" />
             <div className="fig-cap">
               <span className="ref">FIG. 02</span>
               <span className="name">Collections</span>
@@ -114,9 +114,20 @@ export default function Home() {
           </div>
 
           <div className="fig-item">
-            <Figure ref_="FIG. 03" what="Catalog" />
+            <Figure ref_="FIG. 03" what="Collection contents" src="/screens/collection-contents.jpg" />
             <div className="fig-cap">
               <span className="ref">FIG. 03</span>
+              <span className="name">Inside a collection</span>
+              <span className="note">
+                Every knife in a collection at a glance, with brand and steel on each row.
+              </span>
+            </div>
+          </div>
+
+          <div className="fig-item">
+            <Figure ref_="FIG. 04" what="Catalog" src="/screens/catalog.jpg" />
+            <div className="fig-cap">
+              <span className="ref">FIG. 04</span>
               <span className="name">Built-in catalog</span>
               <span className="note">
                 Find the knife you own and add it with steel, dimensions, and photo already filled in.
@@ -125,9 +136,9 @@ export default function Home() {
           </div>
 
           <div className="fig-item">
-            <Figure ref_="FIG. 04" what="Knife detail" />
+            <Figure ref_="FIG. 05" what="Knife detail" src="/screens/knife-detail.jpg" />
             <div className="fig-cap">
-              <span className="ref">FIG. 04</span>
+              <span className="ref">FIG. 05</span>
               <span className="name">Full spec sheet</span>
               <span className="note">
                 Steel, handle, lock, length, weight — recorded per knife and ready to export.
