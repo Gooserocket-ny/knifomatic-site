@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Knifomatic",
-  description: "Knifomatic Privacy Policy — Gooserocket Corp.",
+  title: "Privacy Policy · Knifomatic",
+  description: "Knifomatic Privacy Policy · Gooserocket Corp.",
 };
 
 export default function Privacy() {
@@ -20,7 +20,7 @@ export default function Privacy() {
         <p className="intro">
           Knifomatic helps you keep a record of your knife collection. We collect only what the app
           needs in order to work. We do not sell your data, we do not track you across other apps or
-          websites, and we use no advertising networks — some listings in the app are paid
+          websites, and we use no advertising networks, some listings in the app are paid
           placements, and those are labelled as such rather than targeted at you. The rules for
           using the app are set out separately in our <Link href="/terms">Terms of Service</Link>.
         </p>
@@ -39,7 +39,7 @@ export default function Privacy() {
             <strong>Account data.</strong> Your email address, used to sign you in, to reset your
             password, and to manage your account. Passwords are stored in hashed form by our
             authentication provider and are never visible to us. If you sign in with Apple or
-            Google, we receive your email address and a verified identifier from them — never your
+            Google, we receive your email address and a verified identifier from them, never your
             password.
           </li>
           <li>
@@ -57,7 +57,7 @@ export default function Privacy() {
             <strong>Community submissions.</strong> If you post to the Fresh Cuts feed, we store the
             video identifier, the time you submitted it, and your account identifier, together with
             any moderation decision made about it. We also hold the video&apos;s title, channel, and
-            publication date, which come from YouTube rather than from you — see section 5.
+            publication date, which come from YouTube rather than from you (see section 5).
           </li>
           <li>
             <strong>Reports you file.</strong> If you report a link, we store which link it was, the
@@ -103,8 +103,8 @@ export default function Privacy() {
         </p>
         <p>
           Your device may hold its own copy, outside our reach and outside our knowledge. iOS and
-          Android can include an app&apos;s local files in their system backups — iCloud Backup,
-          Google One — according to settings you control. If such a backup exists, restoring a device
+          Android can include an app&apos;s local files in their system backups (iCloud Backup,
+          Google One) according to settings you control. If such a backup exists, restoring a device
           from it may bring your photographs back. We neither see nor manage those backups, and the
           privacy policies of Apple and Google govern them.
         </p>
@@ -118,30 +118,30 @@ export default function Privacy() {
         <p>We use the data described above for the following purposes only:</p>
         <ul>
           <li>
-            <strong>To provide the service you asked for</strong> — signing you in, storing and
+            <strong>To provide the service you asked for</strong>: signing you in, storing and
             syncing your collection, sending you account emails such as password resets and email
             verification, and applying any edition you have purchased. Without this data the app
             cannot function, so we process it in order to perform our agreement with you.
           </li>
           <li>
-            <strong>To keep the service working and secure</strong> — diagnosing crashes, preventing
+            <strong>To keep the service working and secure</strong>: diagnosing crashes, preventing
             abuse, and enforcing our Terms of Service. We do this on the basis of our legitimate
             interest in running a reliable service, balanced against your privacy.
           </li>
           <li>
-            <strong>To run and moderate Fresh Cuts</strong> — storing and displaying the links you
+            <strong>To run and moderate Fresh Cuts</strong>: storing and displaying the links you
             submit, reviewing reports, removing links that break the posting rules, and preventing
             repeat breaches. We do this to perform our agreement with you, and on the basis of our
             legitimate interest in keeping the feed relevant and safe.
           </li>
           <li>
-            <strong>To answer your support requests</strong> — reading and keeping our
+            <strong>To answer your support requests</strong>: reading and keeping our
             correspondence so that we can deal with your question, investigate the problem, and refer
             back to what was already done. We do this to perform our agreement with you, and on the
             basis of our legitimate interest in providing effective support.
           </li>
           <li>
-            <strong>To meet our obligations</strong> — retaining records of purchases where tax and
+            <strong>To meet our obligations</strong>: retaining records of purchases where tax and
             consumer-protection rules require it.
           </li>
         </ul>
@@ -158,29 +158,29 @@ export default function Privacy() {
         </p>
         <ul>
           <li>
-            <strong>Supabase</strong> — authentication and database hosting, holding your email
+            <strong>Supabase</strong>: authentication and database hosting, holding your email
             address and collection data.
           </li>
           <li>
-            <strong>Cloudflare</strong> — infrastructure and content delivery, including hosting for
+            <strong>Cloudflare</strong>: infrastructure and content delivery, including hosting for
             our own catalog reference photographs. Your personal photographs are never uploaded to
             it.
           </li>
           <li>
-            <strong>Zoho Mail</strong> — delivery of account emails.
+            <strong>Zoho Mail</strong>: delivery of account emails.
           </li>
           <li>
-            <strong>Sentry</strong> — crash and error diagnostics.
+            <strong>Sentry</strong>: crash and error diagnostics.
           </li>
           <li>
-            <strong>RevenueCat</strong> — validating in-app purchases and recording the edition an
+            <strong>RevenueCat</strong>: validating in-app purchases and recording the edition an
             account is entitled to.
           </li>
         </ul>
         <p>
           <strong>Apple and Google are different.</strong> When you download the app or make a
           purchase, Apple and Google process your store account, device, and payment information for
-          their own purposes as well as ours — running their stores, preventing fraud, and whatever
+          their own purposes as well as ours: running their stores, preventing fraud, and whatever
           else their own terms permit. They act independently of us there, not on our instructions,
           and their own privacy policies govern what they do. Your payment card details go to them
           and are never seen by us.
@@ -189,15 +189,15 @@ export default function Privacy() {
           <strong>YouTube.</strong> Fresh Cuts is built with YouTube API Services. When a link is
           submitted we ask YouTube&apos;s API for that video&apos;s title, channel name, and
           publication date, and thumbnails are loaded directly from YouTube when the feed is
-          displayed. This uses public data only — <strong>Fresh Cuts never asks for access to your
+          displayed. This uses public data only. <strong>Fresh Cuts never asks for access to your
           YouTube account</strong>, and cannot see your subscriptions, history, or anything else
           tied to it.
         </p>
         <p>
           Because thumbnails load straight from YouTube rather than through us, your device connects
           to YouTube directly whenever the feed is shown. YouTube may therefore receive technical
-          information of its own — your IP address, basic device and app details, and the time of the
-          request — which we never see. The same is true of{" "}
+          information of its own (your IP address, basic device and app details, and the time of the
+          request), which we never see. The same is true of{" "}
           <strong>Reddit</strong>: the headlines shown on the home screen are read from the public
           feeds of a fixed list of knife-related subreddits, and your device fetches them from Reddit
           directly, so Reddit may receive the same kind of technical information under its own
@@ -224,7 +224,7 @@ export default function Privacy() {
         </p>
         <p>
           Beyond the providers above, we disclose your data only where the law obliges us to, or if
-          Knifomatic is sold or merged into another business — in which case your data would pass to
+          Knifomatic is sold or merged into another business, in which case your data would pass to
           the buyer as part of the service, still governed by a policy no less protective than this
           one, and we would tell you before anything changed.
         </p>
@@ -248,15 +248,15 @@ export default function Privacy() {
             deleted accounts from backups.
           </li>
           <li>
-            <strong>Limited records we are required to keep.</strong> Purchase history — what was
-            bought, when, and whether it was refunded — is retained for tax, accounting, fraud
+            <strong>Limited records we are required to keep.</strong> Purchase history (what was
+            bought, when, and whether it was refunded) is retained for tax, accounting, fraud
             prevention, and dispute resolution, because a refund can arrive long after an account is
             gone. These records are no longer connected to an active Knifomatic account.
           </li>
           <li>
             <strong>Moderation records.</strong> If you posted to Fresh Cuts or reported someone
-            else&apos;s link, the record of that — which video, when, the reports filed, and what was
-            decided — is kept for up to 12 months, together with the account identifier it belonged
+            else&apos;s link, the record of that (which video, when, the reports filed, and what was
+            decided) is kept for up to 12 months, together with the account identifier it belonged
             to. We keep it to investigate open complaints, enforce posting restrictions, settle
             disputes, and prevent the same problems recurring. It holds nothing about your
             collection.
@@ -265,7 +265,7 @@ export default function Privacy() {
         <p>
           Community submissions stop being visible in the feed 24 hours after posting.{" "}
           <strong>
-            The details that came from YouTube — title, channel, publication date — are erased within
+            The details that came from YouTube (title, channel, publication date) are erased within
             seven days of posting
           </strong>
           , which is stricter than YouTube&apos;s API terms require of us. What remains afterwards is our own record: which
@@ -276,7 +276,7 @@ export default function Privacy() {
         </p>
         <p>
           Diagnostic logs and crash reports are kept no longer than our diagnostics provider retains
-          them — currently up to 30 days — and are then discarded. Support correspondence is kept for
+          them (currently up to 30 days) and are then discarded. Support correspondence is kept for
           up to two years.
         </p>
 
@@ -292,14 +292,14 @@ export default function Privacy() {
           You may use the app as a guest. In that case the collection you build stays on your device
           and is not synced to our servers: we hold no copy of it, so we can neither back it up nor
           restore it. Removing the app normally deletes the local copy, although a device-level
-          backup made by iOS or Android may restore some local files — a process we neither control
+          backup made by iOS or Android may restore some local files, a process we neither control
           nor can promise anything about.
         </p>
         <p>
           Guest use is not entirely invisible to us, and we will not pretend otherwise. The app still
           contacts our services for things like the knife catalog, so the technical and diagnostic
-          data described in section 2 — crash reports, and ordinary network logs including IP
-          addresses — is still generated. It is not tied to any account, because there is none.
+          data described in section 2 (crash reports, and ordinary network logs including IP
+          addresses) is still generated. It is not tied to any account, because there is none.
         </p>
 
         <h2>9. Security</h2>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support — Knifomatic",
+  title: "Support · Knifomatic",
   description: "Support and frequently asked questions for Knifomatic.",
 };
 
@@ -21,7 +21,7 @@ export default function Support() {
             </section>
             <section>
               <h3>My collections disappeared after reinstalling the app</h3>
-              <p>Make sure you are signed in with the same account you used before. Your collections, knives, and specifications sync from the cloud automatically when you log in — it may take a few seconds to appear.</p>
+              <p>Make sure you are signed in with the same account you used before. Your collections, knives, and specifications sync from the cloud automatically when you log in, and may take a few seconds to appear.</p>
               <p>Photos are the exception: they are stored only on the device that added them and are not currently uploaded, so we cannot bring them back after a reinstall or on a new phone. A device-level backup made by iOS or Android may restore them, but that is your operating system&apos;s doing and not something we control or can promise. Keep your own copies of images you care about. Photo backup is planned as part of a future subscription.</p>
             </section>
             <section>

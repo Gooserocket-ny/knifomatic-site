@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Knifomatic — Your Knife Collection. Engineered.",
+  title: "Knifomatic · Your Knife Collection. Engineered.",
   description:
     "Knifomatic is a knife-collection toolkit: catalog your knives, organize collections, browse the catalog, and sync across devices.",
 };
@@ -25,7 +25,7 @@ export function Wordmark({ className }: { className?: string }) {
 function Header() {
   return (
     <header className="top">
-      <Link className="brand" href="/" aria-label="Knifomatic — home">
+      <Link className="brand" href="/" aria-label="Knifomatic home">
         <Wordmark className="mark" />
         <span className="tag">v1.0</span>
       </Link>

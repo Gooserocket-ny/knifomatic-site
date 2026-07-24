@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — Knifomatic",
-  description: "Knifomatic Terms of Service — Gooserocket Corp.",
+  title: "Terms of Service · Knifomatic",
+  description: "Knifomatic Terms of Service · Gooserocket Corp.",
 };
 
 export default function Terms() {
@@ -62,7 +62,7 @@ export default function Terms() {
           Where you install the app from the App Store, this licence is also subject to the Usage
           Rules in Apple&apos;s App Store Terms of Service, including the arrangements Apple makes for
           Family Sharing, volume purchasing, and legacy contacts. You are responsible for complying
-          with the terms of any third-party service you reach through Knifomatic — YouTube, which
+          with the terms of any third-party service you reach through Knifomatic: YouTube, which
           hosts the videos linked in the community feed, Reddit, whose public feeds supply the
           headlines on the home screen, and the retailers behind listed deals.
         </p>
@@ -102,7 +102,7 @@ export default function Terms() {
           You may use Knifomatic as a guest. Guest collection data is stored only on your device: it
           does not sync, and we hold no copy of it, so we can neither back it up nor restore it.
           Removing the app normally deletes the local copy, although a device-level backup made by
-          iOS or Android may restore some local files — that process is not ours to control or
+          iOS or Android may restore some local files; that process is not ours to control or
           promise. Ordinary technical and diagnostic data is still generated, as the{" "}
           <Link href="/privacy">Privacy Policy</Link> explains. Guest accounts are subject to lower
           limits than registered accounts.
@@ -129,7 +129,7 @@ export default function Terms() {
         </p>
         <p>
           Your device may keep its own copy. iOS and Android can include an app&apos;s local files in
-          their system backups — iCloud Backup, Google One — depending on settings we neither control
+          their system backups (iCloud Backup, Google One) depending on settings we neither control
           nor can see. If such a backup exists, restoring a device from it may bring your photographs
           back. That is between you and your operating system; we can make no promises about it
           either way.
@@ -178,16 +178,16 @@ export default function Terms() {
         </p>
         <p>
           By submitting a link you authorise us to store and display that URL and the publicly
-          available details that go with it — video title, thumbnail, channel name, and publication
-          date — within Knifomatic while the post is active. You retain any rights you may have in
+          available details that go with it (video title, thumbnail, channel name, and publication
+          date) within Knifomatic while the post is active. You retain any rights you may have in
           the information you submit. This authorisation covers the link and its details only: it
           gives us no rights in the underlying video.
         </p>
         <p>
           The details supplied by YouTube are kept only for the period set out in the{" "}
           <Link href="/privacy">Privacy Policy</Link>, which is shorter than the life of the record
-          itself. Afterwards we keep our own part of it — which video was linked, by which account,
-          when, along with any reports and moderation decisions — for the purposes described there.
+          itself. Afterwards we keep our own part of it (which video was linked, by which account,
+          when, along with any reports and moderation decisions) for the purposes described there.
         </p>
         <p>
           You can report a link through the reporting function in the app. We may review, refuse,
@@ -278,7 +278,7 @@ export default function Terms() {
           Editions are one-time purchases rather than subscriptions: nothing recurs and there is
           nothing to cancel. Buying a higher edition replaces a lower one rather than adding to it.
           We may separately offer subscriptions for ongoing services, such as photo backup. Those are
-          distinct from editions — an edition you have bought remains yours whether or not you hold
+          distinct from editions: an edition you have bought remains yours whether or not you hold
           any subscription, and ending a subscription never reduces your edition.
         </p>
         <p>
@@ -301,7 +301,7 @@ export default function Terms() {
           in restores your account in full. After that period your account and collection data are
           deleted from our active systems and we cannot retrieve them for you. Some limited records
           outlive that: purchase history, moderation records from the community feed, and anything
-          needed to prevent fraud, settle a dispute, or meet a legal obligation — and residual copies
+          needed to prevent fraud, settle a dispute, or meet a legal obligation, and residual copies
           may remain in encrypted backups until those expire on their normal rotation. Section 6 of
           the <Link href="/privacy">Privacy Policy</Link> sets out each of them and for how long.
         </p>
@@ -309,7 +309,7 @@ export default function Terms() {
           We may suspend or close an account that breaches these terms, misuses the service, or
           creates risk for other users or for us. Where it is reasonable to do so, we will explain
           why and give you an opportunity to put matters right. Clauses that by their nature should
-          survive the end of this agreement — including clauses 2, 12, 16, 17, 18, and 22 — continue to
+          survive the end of this agreement (including clauses 2, 12, 16, 17, 18, and 22) continue to
           apply.
         </p>
 
@@ -321,8 +321,8 @@ export default function Terms() {
           data.
         </p>
         <p>
-          Knifomatic depends on third-party services — hosting, databases, email delivery, and the
-          app stores — which we do not control. If one of them changes its terms, raises its prices,
+          Knifomatic depends on third-party services (hosting, databases, email delivery, and the
+          app stores) which we do not control. If one of them changes its terms, raises its prices,
           or ceases to operate, we may have to change or end parts of the service, or the service as
           a whole, and we are not liable for that.
         </p>
@@ -373,7 +373,7 @@ export default function Terms() {
         <p>
           This agreement is between you and Gooserocket Corp, not with Apple or Google. Neither store
           is responsible for the app or its content, and neither has any obligation to provide
-          support or maintenance for it — that responsibility is ours alone.
+          support or maintenance for it; that responsibility is ours alone.
         </p>
         <p>
           If the app fails to conform to any warranty that cannot lawfully be excluded, you may
