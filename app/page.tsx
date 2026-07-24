@@ -71,8 +71,9 @@ export default function Home() {
 
           <div className="hero-meta">
             <span>FREE TO USE</span>
-            <span>NO PERSONALIZED ADS · NO DATA SELLING</span>
+            <span>NO DATA SELLING</span>
             <span>WORKS OFFLINE</span>
+            <span>GUEST MODE</span>
           </div>
         </div>
 
@@ -254,9 +255,9 @@ export default function Home() {
           <div className="edition">
             <div className="ed-head">
               <span className="ed-rank">01</span>
-              <h3>Starter</h3>
+              <h3>Starter Edition</h3>
             </div>
-            <p className="ed-note">Where every account starts. Free, no purchase.</p>
+            <p className="ed-note">Where every account starts. Free, no purchase, all core features.</p>
             <div className="ed-spec">
               <div className="row"><span className="k">Knives</span><span className="v">100</span></div>
               <div className="row"><span className="k">Photos each</span><span className="v">1</span></div>
@@ -266,9 +267,9 @@ export default function Home() {
           <div className="edition">
             <div className="ed-head">
               <span className="ed-rank">02</span>
-              <h3>Enthusiast</h3>
+              <h3>Enthusiast Edition</h3>
             </div>
-            <p className="ed-note">For a collection that has stopped fitting in a drawer.</p>
+            <p className="ed-note">A one-time step up in room for a collection that keeps growing.</p>
             <div className="ed-spec">
               <div className="row"><span className="k">Knives</span><span className="v">300</span></div>
               <div className="row"><span className="k">Photos each</span><span className="v">3</span></div>
@@ -278,9 +279,9 @@ export default function Home() {
           <div className="edition">
             <div className="ed-head">
               <span className="ed-rank">03</span>
-              <h3>Collector</h3>
+              <h3>Collector Edition</h3>
             </div>
-            <p className="ed-note">Room enough that you will not think about it again.</p>
+            <p className="ed-note">The most room there is, for a serious collection.</p>
             <div className="ed-spec">
               <div className="row"><span className="k">Knives</span><span className="v">3,000</span></div>
               <div className="row"><span className="k">Photos each</span><span className="v">6</span></div>
@@ -336,8 +337,8 @@ export default function Home() {
             <div className="row"><span className="k">Based in</span><span className="v">New York, USA</span></div>
             <div className="row"><span className="k">Platforms</span><span className="v">Android · iOS soon</span></div>
             <div className="row"><span className="k">Price</span><span className="v">Free</span></div>
-            <div className="row"><span className="k">Ads</span><span className="v">None</span></div>
-            <div className="row"><span className="k">Tracking</span><span className="v">None</span></div>
+            <div className="row"><span className="k">Ads</span><span className="v">Non-personalized</span></div>
+            <div className="row"><span className="k">Data selling</span><span className="v">None</span></div>
           </div>
         </div>
       </section>

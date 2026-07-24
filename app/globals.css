@@ -97,11 +97,13 @@ header.top nav a:hover,header.top nav a:focus-visible{color:var(--text);border-b
 .hero h1{margin-top:30px;font-size:var(--step-3);line-height:1.2;font-weight:800;letter-spacing:-.2px}
 .hero .sub{margin-top:16px;color:var(--text-2);font-size:var(--step-1);line-height:1.6;max-width:52ch}
 
-.cta{margin-top:30px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.cta{margin-top:30px;display:flex;gap:12px;flex-wrap:wrap;align-items:stretch}
 .btn{
   display:inline-flex;align-items:center;gap:10px;padding:13px 22px;border-radius:var(--radius);
   font-weight:700;font-size:14px;text-decoration:none;letter-spacing:.3px;border:1px solid transparent;
 }
+/* Both store buttons share one width so neither looks larger than the other. */
+.cta .btn{flex:1 1 220px;justify-content:center}
 .btn-primary{background:var(--accent);color:#fff}
 .btn-primary:hover,.btn-primary:focus-visible{background:#5798ff}
 .btn-disabled{background:transparent;color:var(--text-muted);border-color:var(--line);cursor:default}
