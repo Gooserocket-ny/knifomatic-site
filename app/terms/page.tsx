@@ -320,9 +320,10 @@ export default function Terms() {
         </p>
         <p>
           If a purchase is refunded or charged back, the corresponding edition is withdrawn and your
-          account returns to the level your remaining purchases support. No data is deleted as a
-          result: anything you have already added remains in place, and only the ability to add more
-          is suspended until you are within the lower limit again or purchase once more.
+          account returns to the level your remaining purchases support. Where that leaves an account
+          holding more than the lower limit allows, we may restrict what can be added to it until it
+          is within that limit again. We may also decline further purchases, or withdraw access, from
+          accounts that show a pattern of buying and reversing.
         </p>
         <p>
           A refunded stamp pack is handled the same way: the stamps it granted are taken back from
