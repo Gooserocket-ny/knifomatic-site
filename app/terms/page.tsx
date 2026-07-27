@@ -474,8 +474,6 @@ export default function Terms() {
             United States
           </p>
           <p>
-            <a href="tel:+19295031385">+1 929-503-1385</a>
-            <br />
             <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>
           </p>
         </div>

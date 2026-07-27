@@ -52,8 +52,8 @@ export default function Privacy() {
             when, the store transaction identifier, whether it was later refunded, and an identifier
             linking that purchase to your account. Your stamp balance, and the date your free stamp
             was last used, are held on your account so the app knows what you may post. We receive
-            purchase records from the app stores through RevenueCat. We never receive your payment
-            card details.
+            purchase records from the app stores through our purchase validation provider (see
+            section 5). We never receive your payment card details.
           </li>
           <li>
             <strong>Community submissions.</strong> If you post to the Fresh Cuts feed, we store the
@@ -160,25 +160,32 @@ export default function Privacy() {
         </p>
         <ul>
           <li>
-            <strong>Supabase</strong>: authentication and database hosting, holding your email
-            address and collection data.
+            <strong>Authentication and database hosting</strong>: signing you in and storing your
+            email address and collection data.
           </li>
           <li>
-            <strong>Cloudflare</strong>: infrastructure and content delivery, including hosting for
-            our own catalog reference photographs. Your personal photographs are never uploaded to
-            it.
+            <strong>Infrastructure and content delivery</strong>: serving this website and our own
+            catalog reference photographs. Your personal photographs are never uploaded to it.
           </li>
           <li>
-            <strong>Zoho Mail</strong>: delivery of account emails.
+            <strong>Transactional email</strong>: delivery of account emails such as password resets
+            and address verification.
           </li>
           <li>
-            <strong>Sentry</strong>: crash and error diagnostics.
+            <strong>Crash and error diagnostics</strong>: recording faults so we can fix them.
           </li>
           <li>
-            <strong>RevenueCat</strong>: validating in-app purchases and recording the edition an
-            account is entitled to and the stamps credited to it.
+            <strong>Purchase validation</strong>: checking in-app purchases with the app stores and
+            recording the edition an account is entitled to and the stamps credited to it.
           </li>
         </ul>
+        <p>
+          We have named the categories rather than the companies here so that this page does not go
+          stale each time a provider changes. <strong>You can ask us who they are at any time.</strong>{" "}
+          Write to <a href="mailto:support@knifomatic.com">support@knifomatic.com</a> and we will
+          name every provider in these categories, and we will do the same as part of any request you
+          make to exercise your right of access under section 10.
+        </p>
         <p>
           <strong>Apple and Google are different.</strong> When you download the app or make a
           purchase, Apple and Google process your store account, device, and payment information for
@@ -350,8 +357,6 @@ export default function Privacy() {
             United States
           </p>
           <p>
-            <a href="tel:+19295031385">+1 929-503-1385</a>
-            <br />
             <a href="mailto:support@knifomatic.com">support@knifomatic.com</a>
           </p>
         </div>
