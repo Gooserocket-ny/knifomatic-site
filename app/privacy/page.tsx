@@ -277,7 +277,7 @@ export default function Privacy() {
             The details that came from YouTube (title, channel, publication date) are erased within
             seven days of posting
           </strong>
-          , which is stricter than YouTube&apos;s API terms require of us. What remains afterwards is our own record: which
+          . What remains afterwards is our own record: which
           video was linked, by which account, when, and any moderation decision. That is kept for up
           to 12 months, and longer only where reasonably necessary to investigate an open complaint,
           enforce a posting restriction, resolve a dispute, or comply with the law. Reports follow
