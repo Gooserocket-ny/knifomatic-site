@@ -13,7 +13,7 @@ export default function Privacy() {
         <h1>Privacy Policy</h1>
         <div className="meta">
           <p className="product">Knifomatic</p>
-          <p>Last updated: July 18, 2026</p>
+          <p>Last updated: July 26, 2026</p>
           <p>Operator: Gooserocket Corp</p>
         </div>
 
@@ -48,10 +48,12 @@ export default function Privacy() {
             on each device where you sign in.
           </li>
           <li>
-            <strong>Purchase and entitlement data.</strong> Which edition you bought, when, the
-            store transaction identifier, whether it was later refunded, and an identifier linking
-            that purchase to your account. We receive this from the app stores through RevenueCat.
-            We never receive your payment card details.
+            <strong>Purchase and entitlement data.</strong> Which edition or stamp pack you bought,
+            when, the store transaction identifier, whether it was later refunded, and an identifier
+            linking that purchase to your account. Your stamp balance, and the date your free stamp
+            was last used, are held on your account so the app knows what you may post. We receive
+            purchase records from the app stores through RevenueCat. We never receive your payment
+            card details.
           </li>
           <li>
             <strong>Community submissions.</strong> If you post to the Fresh Cuts feed, we store the
@@ -174,7 +176,7 @@ export default function Privacy() {
           </li>
           <li>
             <strong>RevenueCat</strong>: validating in-app purchases and recording the edition an
-            account is entitled to.
+            account is entitled to and the stamps credited to it.
           </li>
         </ul>
         <p>

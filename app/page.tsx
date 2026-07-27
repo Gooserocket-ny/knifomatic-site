@@ -247,7 +247,7 @@ export default function Home() {
           <p>
             Knifomatic costs nothing and stays useful that way. If your collection outgrows the
             starting limits, an edition raises them once, permanently, with nothing recurring to
-            cancel.
+            cancel. An edition changes how much you can keep, never what the app can do.
           </p>
         </div>
 
@@ -290,6 +290,11 @@ export default function Home() {
         </div>
 
         <div className="ed-terms">
+          <p>
+            <strong>Limits, not features.</strong> Every part of the app works on every edition, and
+            on a guest account too: plain shelves, tier lists, rotation collections, the built-in
+            catalog, PDF export, and the community feed. Nothing is held back for a paid tier.
+          </p>
           <p>
             <strong>One-time purchases, not subscriptions.</strong> Nothing renews, nothing lapses,
             and there is nothing to remember to cancel. Moving up replaces the edition below rather

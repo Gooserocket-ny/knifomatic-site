@@ -13,7 +13,7 @@ export default function Terms() {
         <h1>Terms of Service</h1>
         <div className="meta">
           <p className="product">Knifomatic</p>
-          <p>Last updated: July 18, 2026</p>
+          <p>Last updated: July 26, 2026</p>
           <p>Operator: Gooserocket Corp</p>
         </div>
 
@@ -173,8 +173,25 @@ export default function Terms() {
           Submissions are governed by the Fresh Cuts Posting Rules &amp; Terms, which you accept
           before your first post and which remain available in the app afterwards. In summary:
           submissions must be knife-related and lawful, must not be abusive, harassing, or sexually
-          explicit, and must be links you are entitled to share. Posts remain visible for a limited
-          period, and each account may hold only a small number at a time.
+          explicit, and must be links you are entitled to share. A post stays visible for 24 hours,
+          each account may have one active post at a time, which in practice means one video a day,
+          and a video published on YouTube more than 30 days earlier cannot be submitted.
+        </p>
+        <p>
+          <strong>Posting costs a stamp.</strong> Every account holds one free stamp, which becomes
+          available again 30 days after it is spent, and further stamps can be bought in the app as
+          described in clause 14. The free one is always spent first. A stamp is spent when the video
+          is published: if we later remove the post for breaching the rules the stamp is not
+          returned, and if we remove it in error it is restored. Stamps raise how many videos you may
+          post in total, not how often. The limit of one video a day applies to every account,
+          whatever its stamp balance.
+        </p>
+        <p>
+          Fresh Cuts is new and still being tested, so these limits, meaning how long a post stays
+          up, how often you may post, and what a post costs, may change as we see how the feed is
+          used. The version in the app at the time you post is the one that applies to that post, and
+          a change never removes a post made under the earlier rules. We do not withdraw stamps you
+          have already bought when the rules change.
         </p>
         <p>
           By submitting a link you authorise us to store and display that URL and the publicly
@@ -249,9 +266,15 @@ export default function Terms() {
         <h2>13. Paid Placements</h2>
         <p>
           Some content in Knifomatic is paid for. Retailers may pay or make a contribution to have a
-          deal listed, and community posts may be paid for or included as part of a subscription.
-          Anything paid for is marked in the app so you can tell it apart from content we chose
+          deal listed, and we may take payment for other placements in the same way. Anything paid
+          for in that way is marked in the app so you can tell it apart from content we chose
           editorially.
+        </p>
+        <p>
+          Community posts are not paid placements. A stamp is simply what every account spends to
+          post to Fresh Cuts, so posts are ordinary user submissions, they are not marked as paid,
+          and buying stamps does not buy prominence: the feed is ordered by the date a video was
+          published on YouTube, not by what anyone paid.
         </p>
         <p>
           A paid placement is not an endorsement. We do not check the retailers behind listings, we
@@ -260,11 +283,16 @@ export default function Terms() {
           from our content rules, and we can remove one that breaks them without refund.
         </p>
 
-        <h2>14. Editions, Purchases, and Refunds</h2>
+        <h2>14. Editions, Stamps, Purchases, and Refunds</h2>
         <p>
           Knifomatic is free to use. Optional paid editions increase the number of knives you may
           keep in one account and the number of photographs you may attach to each knife. The limits
           applying to each edition are shown in the app at the time you buy.
+        </p>
+        <p>
+          <strong>An edition raises limits, it does not unlock features.</strong> Every feature of
+          the app is available on the free Starter edition, and to guests using the app without an
+          account. What an edition changes is how much you may keep, not what you may do.
         </p>
         <p>
           <strong>
@@ -282,6 +310,14 @@ export default function Terms() {
           any subscription, and ending a subscription never reduces your edition.
         </p>
         <p>
+          <strong>Stamps are a separate, consumable purchase.</strong> A stamp is what an account
+          spends to post a video to Fresh Cuts, as set out in clause 9. Stamps are sold in packs,
+          nothing recurs, and they carry no expiry date. They are held on your account rather than on
+          a device, so they follow you when you sign in elsewhere, but they cannot be transferred to
+          another account or exchanged for money. Stamps are not an edition and do not raise any
+          edition limit, and buying an edition does not include stamps.
+        </p>
+        <p>
           Purchases are made through the App Store or Google Play, which set the price, currency, and
           applicable taxes, and whose terms govern the transaction. We never receive your payment
           card details. Refunds are handled by the store you purchased through, under that store&apos;s
@@ -292,6 +328,12 @@ export default function Terms() {
           account returns to the level your remaining purchases support. No data is deleted as a
           result: anything you have already added remains in place, and only the ability to add more
           is suspended until you are within the lower limit again or purchase once more.
+        </p>
+        <p>
+          A refunded stamp pack is handled the same way: the stamps it granted are taken back from
+          your balance, never taking that balance below zero, and any video already published with a
+          stamp stays where it is. Stamps that have been spent are gone, and a refund does not
+          restore them.
         </p>
 
         <h2>15. Ending the Agreement</h2>
