@@ -390,9 +390,9 @@ export default function Terms() {
         </p>
         <p>
           Where we are found liable despite the above, our total liability for all claims arising out
-          of or relating to Knifomatic is limited to the amount you have paid us in the twelve months
-          before the claim arose. For anyone using the app without having bought anything, that
-          amount is nil.
+          of or relating to Knifomatic is limited to the amount you have paid for Knifomatic in the
+          twelve months before the claim arose, whether you paid us directly or through an app store.
+          For anyone using the app without having bought anything, that amount is nil.
         </p>
         <p>
           Some jurisdictions do not permit these exclusions or limits; where that is so, they apply
