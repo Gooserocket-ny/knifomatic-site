@@ -290,11 +290,6 @@ export default function Terms() {
           applying to each edition are shown in the app at the time you buy.
         </p>
         <p>
-          <strong>An edition raises limits, it does not unlock features.</strong> Every feature of
-          the app is available on the free Starter edition, and to guests using the app without an
-          account. What an edition changes is how much you may keep, not what you may do.
-        </p>
-        <p>
           <strong>
             We will not reduce the limits of an edition you have already bought.
           </strong>{" "}
